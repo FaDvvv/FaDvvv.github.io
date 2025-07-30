@@ -1,11 +1,16 @@
 :root {
     --darkerGrey: rgb(22, 22, 22);
-    --darkGrey: rgb(90, 90, 90);
+    --darkGrey: rgb(100, 100, 100);
+    --lightGrey: rgb(200, 200, 200);
 }
+
+
 
 body {
     background-color: var(--darkerGrey);
 }
+
+
 
 h1 {
     display: flex;
@@ -14,61 +19,125 @@ h1 {
 
     width: 100%;
     height: 30px;
-    background-color: blue;
-    border-top: 3px solid greenyellow; 
-    border-bottom: 3px solid rgb(119, 190, 12);
 
     font-size: 24px;
     line-height: 30px;
-    padding-left: 5px;
+    padding-left: 10px;
+
+    background-color: var(--darkGrey);
+    border-top: 3px solid var(--lightGrey); 
+    border-bottom: 3px solid var(--lightGrey);
 }
+
 
 
 .container {
     position: relative;
 
-    min-width: 800;
-    min-height: 600px;
+    margin: 0 5% 0 5%;
 
-    max-width: 2000px;
-    max-height: 1000px;
+    width:1200px;
+    height:600px;
 
-    width:90%;
-    height:100%;
-
-
-    background-color: red;
+    background-color: yellow;
 }
+
 
 
 
 .gamestate-frame {
-    position: relative;   /* needed for absolute positioning of children */
+    position: relative; /* required for absolute positioning inside */
     width: 100%;
-    height: 200px;
-    background-color: #0013b9;
-}
-    
-
-
-.side-frame {
-    background-color: #ccc;
-
-    width: 49%;
     height: 100%;
-    
 }
 
-.side-frame.left {
+/* Side frames */
+.side-frame {
     position: absolute;
+    top: 0;
+    width: 30%;  /* You can change this freely */
+    height: 100%;
+    background-color: #ccc;
+    z-index: 1;
+}
+.side-frame.left {
     left: 0;
 }
-
 .side-frame.right {
-    position: absolute;
     right: 0;
 }
 
+
+
+.active-frame,
+.party-frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+
+
+.active-frame {
+    height: 60%;
+    background-color: #a70000;
+}
+
+
+
+.party-frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; /* or 'start', 'center', etc. */
+    align-items: center;
+    height: 40%;
+    background-color: #000cb1;
+    box-sizing: border-box;
+}
+.party-frame.left {
+    align-items: flex-start;
+}
+.party-frame.right {
+    align-items: flex-end;
+}
+
+
+
+.loomian-frame {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    
+    width: 70%;
+    height: 30px;
+    background-color: var(--darkGrey);
+    border: 2px solid var(--lightGrey);
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.party-frame.left .loomian-frame {
+    text-align: left;
+}
+.party-frame.right .loomian-frame {
+    text-align: right;
+}
+
+
+
+.control-frame {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 100%;
+    background-color: #ccc;
+    z-index: 2;
+    text-align: center;
+}
 
 
 
