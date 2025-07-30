@@ -105,25 +105,66 @@ h1 {
 
 
 .loomian-frame {
+    position:relative;
+
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between; 
     
-    width: 70%;
+    width: 290px;
     height: 30px;
+    margin: 0px;
+    padding: 0px 5px;
+
     background-color: var(--darkGrey);
     border: 2px solid var(--lightGrey);
     border-radius: 5px;
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
 }
+    
 .party-frame.left .loomian-frame {
-    text-align: left;
+    margin-left: 0;
+    margin-right: auto;
 }
 .party-frame.right .loomian-frame {
+    margin-left: auto;
+    margin-right: 0;
+    flex-direction: row-reverse; /* Flip h2 and p */
     text-align: right;
+}
+
+
+.loomian-frame-button {
+    position: absolute;
+    bottom: -2px;
+    width: 60px;
+    height: 30px;
+
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 5px;
+
+    background-color: var(--darkGrey);
+    border: 2px solid var(--lightGrey);
+    border-radius: 5px;
+}
+.party-frame.left .loomian-frame-button {
+    right: -66px;
+    left: auto; /* override left */
+}
+.party-frame.right .loomian-frame-button {
+    left: -66px;
+    right: auto; /* override right */
+}
+
+.loomian-frame-button {
+    transition: background-color 0.1s ease;
+}
+.loomian-frame-button.hover-allowed:hover {
+    background-color: var(--lightGrey);
+    color: black;
+    cursor: pointer;
 }
 
 
