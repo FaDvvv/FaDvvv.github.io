@@ -8,22 +8,16 @@ document.addEventListener('DOMContentLoaded', () => {
         { title: "loomian 3", body: "body3" },
         { title: "loomian 4", body: "body4" },
         { title: "loomian 5", body: "body5" },
-        { title: "loomian 6", body: "body6" }
+        { title: "loomian 6", body: "body6" },
+        { title: "loomian 7", body: "body7" }
     ];
 
     partyFrames.forEach((partyFrame) => {
         items.forEach(({ title, body }) => {
         const clone = loomianFrameTemplate.content.cloneNode(true);
-        const header = clone.querySelector('.header');
-        const bodyDiv = clone.querySelector('.body');
-        const frame = clone.querySelector('.loomian-frame');
 
-        clone.querySelector('h3').textContent = title;
+        clone.querySelector('h2').textContent = title;
         clone.querySelector('p').textContent = body;
-
-        header.addEventListener('click', () => {
-            frame.classList.toggle('open');
-        });
 
         partyFrame.appendChild(clone);
         });

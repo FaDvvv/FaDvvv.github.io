@@ -1,71 +1,75 @@
+:root {
+    --darkerGrey: rgb(22, 22, 22);
+    --darkGrey: rgb(90, 90, 90);
+}
+
 body {
-    background-color: grey;
+    background-color: var(--darkerGrey);
 }
 
 h1 {
-    text-Align: center;
+    display: flex;
+    align-items: center;
+    margin: 10px 0 10px 0;
+
+    width: 100%;
+    height: 30px;
+    background-color: blue;
+    border-top: 3px solid greenyellow; 
+    border-bottom: 3px solid rgb(119, 190, 12);
+
+    font-size: 24px;
+    line-height: 30px;
+    padding-left: 5px;
 }
 
 
+.container {
+    position: relative;
+
+    min-width: 800;
+    min-height: 600px;
+
+    max-width: 2000px;
+    max-height: 1000px;
+
+    width:90%;
+    height:100%;
+
+
+    background-color: red;
+}
 
 
 
 .gamestate-frame {
-    display: flex;
-    flex-direction: row;
-    margin: 0 10%;
+    position: relative;   /* needed for absolute positioning of children */
+    width: 100%;
+    height: 200px;
+    background-color: #0013b9;
 }
+    
+
 
 .side-frame {
-    display: flex;
-    flex-direction: column;
-    width: 35%; /* adjust as needed */
-}
-.side-frame:nth-child(2) {
-    margin-left: auto;
-}
+    background-color: #ccc;
 
-.active-frame {
-    height: 200px;
-    background-color: lightblue;
-    margin-bottom: 10px;
-}
-
-.party-frame {
-    height: 400px;
-    background-color: lightgray;
-    overflow-y: scroll;
-
-    display: flex;
-    flex-direction: column;
-    gap: 0;
-}
-
-.loomian-frame {
-    border: 2px solid black;
-    margin: 10;
-    padding: 10;
-    width: 100px;
-    height: 50px; /* Initial height */
-    background-color: white;
-    flex-shrink: 0; 
-    overflow: hidden; /* Hide extra body content */
-    transition: height 0.3s ease; /* Smooth height change */
-}
-
-.loomian-frame.open {
-    height: 250px; /* Expanded height */
-}
-
-.body {
-    padding: 10px;
-}
-
-
-.scroll-frame {
-    width: 100%;
+    width: 49%;
+    height: 100%;
     
-    border: 2px solid #ccc;
-    background-color: #f0f0f0;
-    padding: 10px;
 }
+
+.side-frame.left {
+    position: absolute;
+    left: 0;
+}
+
+.side-frame.right {
+    position: absolute;
+    right: 0;
+}
+
+
+
+
+
