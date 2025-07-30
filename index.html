@@ -1,27 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 
-<link rel="styleSheet" href="app.css">
-</head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StockSwishy</title>
+    <link rel="stylesheet" href="app.css" />
 
+</head>
 
 <body>
 
-<h1>The template elements</h1>
+    <h1>Swishy</h1>
 
-<p>Click the button to display the hidden content from the template element</p>
+    <template id="loomian-frame-template">
+        <div class="loomian-frame">
+            <div class="header">
+                <h3>title</h3>
+            </div>
+            <div class="body">
+                <p></p>
+            </div>
+        </div>
+    </template>
 
-<button onclick="alertButton()">Show hidden content</button>
+    <div class="gamestate-frame">
 
-<template>
-    <h2>Flower</h2>
-    <img src="img_default.img" width="214" heaight="204">
-</template>
+        <div class="side-frame">
+            <div class="active-frame">
 
+            </div>
+
+            <div class="party-frame">
+
+            </div>
+        </div>
+
+        <div class="side-frame">
+            <div class="active-frame">
+
+            </div>
+
+            <div class="party-frame">
+
+            </div>
+        </div>
+
+    </div>
+
+
+    
+
+    <script src="app.js"></script>
 </body>
-
-<script src="app.js"></script>
-
 </html>
