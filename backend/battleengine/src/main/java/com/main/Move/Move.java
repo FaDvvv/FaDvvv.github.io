@@ -1,4 +1,4 @@
-package com.main;
+package com.main.Move;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,6 +13,9 @@ public class Move {
     private int power;
     private int priority;
 
+    private MoveEffect userEffects;
+    private MoveEffect enemyEffects;
+
 
     public Move() {
 
@@ -25,6 +28,9 @@ public class Move {
         this.accuracy = other.accuracy;
         this.energyCost = other.energyCost;
         this.power = other.power;
+
+        this.userEffects = MoveEffect.copy(other.userEffects);
+        this.enemyEffects = MoveEffect.copy(other.enemyEffects);
     }
 
     public static Move copy(Move other) {

@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 
 import com.main.Actions.Action;
+import com.main.Move.Move;
 
 public class Loomian extends Species {
     private boolean hasFainted;
@@ -34,7 +35,11 @@ public class Loomian extends Species {
     public Loomian() {
 
     }
+    public Loomian(Set set) {
+        
+    }
     public Loomian(Loomian other) {
+        super(other);
         this.hasFainted = other.hasFainted;
         this.hasFaintedThisTurn = other.hasFaintedThisTurn;
         this.isBenched = other.isBenched;

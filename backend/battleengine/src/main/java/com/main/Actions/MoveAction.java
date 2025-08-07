@@ -1,6 +1,6 @@
 package com.main.Actions;
 
-import com.main.Move;
+import com.main.Move.Move;
 
 public class MoveAction extends Action {
 

@@ -31,5 +31,29 @@ public class BattleContext {
 
         this.user = new BattleParticipant(gameState, i);
         this.enemy = new BattleParticipant(gameState, 1-i);
+
+        this.user.setEnemy(enemy);
+        this.enemy.setEnemy(user);
+    }
+
+
+    // getters
+    public GameState getGameState() {
+        return gameState;
+    }
+    public List<Side> getSides() {
+        return sides;
+    }
+    public HashMap<String, WholeFieldEffect> getFieldEffects() {
+        return fieldEffects;
+    }
+    public Weather getWeather() {
+        return weather;
+    }
+    public BattleParticipant getUser() {
+        return user;
+    }
+    public BattleParticipant getEnemy() {
+        return enemy;
     }
 }
