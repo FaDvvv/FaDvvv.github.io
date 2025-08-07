@@ -1,0 +1,24 @@
+{
+    "garlash":{
+        "offense": {
+            "species":"garlash",
+            "ability":"power jaw",
+            "item":"power cuffs",
+            "personality":["brawny","nimble","very clumsy"],
+            "moves":["vicious snap", "mega chomp", "chilly chomp", "venom chomp"],
+            "tps":[96,4,200,0,0,0,200],
+            "ups":[40,40,40,40,40,40,40]
+        }
+    },
+    "nevermare":{
+        "offense":{
+            "species":"nevermare",
+            "ability":"frenzy",
+            "item":"power cuffs",
+            "personality":["nimble"],
+            "moves":["harrow", "vine lash", "parasitize", "bulk up"],
+            "tps":[96,4,200,0,0,0,200],
+            "ups":[40,40,40,40,40,40,40]
+        }
+    }
+}

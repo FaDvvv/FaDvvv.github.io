@@ -7,6 +7,7 @@ import com.main.Ability;
 import com.main.Item;
 import com.main.JsonFileReader;
 import com.main.MinorStatus;
+import com.main.Set;
 import com.main.SideFieldEffect;
 import com.main.Species;
 import com.main.Status;
@@ -25,52 +26,65 @@ public class Manager {
     private static Map<String, WholeFieldEffect> wholeFieldEffectMap = new HashMap<>(); 
     private static Map<String, SideFieldEffect> sideFieldEffectMap = new HashMap<>(); 
 
+    private static Map<String, Map<String, Set>> setMap = new HashMap<>();
+
 
     static {
         speciesMap           = JsonFileReader.readMap("species.json", Species.class);
         moveMap              = JsonFileReader.readMap("moves.json", Move.class);
         itemMap              = JsonFileReader.readMap("items.json", Item.class);
         abilityMap           = JsonFileReader.readMap("abilities.json", Ability.class);
-        statusMap             = JsonFileReader.readMap("statuses.json", Status.class);
+        statusMap            = JsonFileReader.readMap("statuses.json", Status.class);
         minorStatusMap       = JsonFileReader.readMap("minorStatuses.json", MinorStatus.class);
         wholeFieldEffectMap  = JsonFileReader.readMap("wholeFieldEffects.json", WholeFieldEffect.class);
         sideFieldEffectMap   = JsonFileReader.readMap("sideFieldEffects.json", SideFieldEffect.class);
+
+        setMap               = JsonFileReader.readNestedMap("sets.json", Set.class);
     }
 
 
-    public void error(String map, String key) {
+    private Manager() {}
+
+
+    public static void error(String map, String key) {
         System.err.println("Attempted to access \"" + key + "\" from " + map + "Map");
     }
-    public Species getSpecies(String key) {
+    public static Species getSpecies(String key) {
         if (speciesMap.get(key) == null) error("species", key);
-        return speciesMap.get(key);
+        return Species.copy(speciesMap.get(key));
     }
-    public Move getMove(String key) {
+    public static Move getMove(String key) {
         if (moveMap.get(key) == null) error("moves", key);
-        return moveMap.get(key);
+        return Move.copy(moveMap.get(key));
     }
-    public Item getItem(String key) {
+    public static Item getItem(String key) {
         if (itemMap.get(key) == null) error("items", key);
-        return itemMap.get(key);
+        return Item.copy(itemMap.get(key));
     }
-    public Ability getAbiltiy(String key) {
+    public static Ability getAbiltiy(String key) {
         if (abilityMap.get(key) == null) error("abilities", key);
-        return abilityMap.get(key);
+        return Ability.copy(abilityMap.get(key));
     }
-    public Status getStatus(String key) {
+    public static Status getStatus(String key) {
         if (statusMap.get(key) == null) error("statuses", key);
-        return statusMap.get(key);
+        return Status.copy(statusMap.get(key));
     }
-    public MinorStatus getMinorStatus(String key) {
+    public static MinorStatus getMinorStatus(String key) {
         if (minorStatusMap.get(key) == null) error("minorStatuses", key);
-        return minorStatusMap.get(key);
+        return MinorStatus.copy(minorStatusMap.get(key));
     }
-    public WholeFieldEffect getWholeFieldEffect(String key) {
+    public static WholeFieldEffect getWholeFieldEffect(String key) {
         if (wholeFieldEffectMap.get(key) == null) error("wholeFieldEffects", key);
-        return wholeFieldEffectMap.get(key);
+        return WholeFieldEffect.copy(wholeFieldEffectMap.get(key));
     }
-    public SideFieldEffect getSideFieldEffect(String key) {
+    public static SideFieldEffect getSideFieldEffect(String key) {
         if (sideFieldEffectMap.get(key) == null) error("SideFieldEffects", key);
-        return sideFieldEffectMap.get(key);
+        return SideFieldEffect.copy(sideFieldEffectMap.get(key));
+    }
+
+    public static Set getSet(String speciesKey, String setKey) {
+        if (setMap.get(speciesKey) == null) System.err.println("Species \"" + speciesKey + "\" does not exist in setMap");
+        if (setMap.get(speciesKey).get(setKey) == null) System.err.println("Set \"" + setKey + "\" does not exist in species \"" + speciesKey + "\" in setMap");
+        return Set.copy(setMap.get(speciesKey).get(setKey));
     }
 }
