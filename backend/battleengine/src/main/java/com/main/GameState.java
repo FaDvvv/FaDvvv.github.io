@@ -40,8 +40,8 @@ public class GameState {
     }
 
 
+    
     // getters
-
     public double getChance() {
         return chance;
     }
@@ -63,10 +63,13 @@ public class GameState {
     public WholeFieldEffect getFieldEffects(String key) {
         return fieldEffects.get(key);
     } 
+    public Weather getWeather() {
+        return weather;
+    }
     
     
-    // setters
 
+    // setters
     public void setChance(double chance) {
         this.chance = chance;
     }
@@ -78,5 +81,8 @@ public class GameState {
     }
     public void setSide(int i, Side side) {
         this.sides.add(i, side);
+    }
+    public void setWeather(Weather weather) {
+        this.weather = weather;
     }
 } 

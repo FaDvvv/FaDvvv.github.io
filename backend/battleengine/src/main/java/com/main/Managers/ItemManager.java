@@ -17,7 +17,7 @@ public class ItemManager {
     private ItemManager () {}
 
     public static Item get(String s) {
-        if (itemMap.get(s) == null) {System.err.println("Attempted to access null loomian \"" + s + "\"");}
+        if (itemMap.get(s) == null) {System.err.println("Attempted to access null item \"" + s + "\"");}
         return itemMap.get(s);
     }
 }

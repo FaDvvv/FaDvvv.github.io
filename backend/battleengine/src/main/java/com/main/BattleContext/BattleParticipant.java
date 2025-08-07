@@ -1,39 +1,48 @@
-package com.main;
+package com.main.BattleContext;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.stream.Collectors;
 
-public class Side {
+import com.main.GameState;
+import com.main.Loomian;
+import com.main.Side;
+import com.main.SideFieldEffect;
+import com.main.Weather;
+import com.main.WholeFieldEffect;
+
+public class BattleParticipant {
+
+    private GameState gameState;
+    private HashMap<String, WholeFieldEffect> fieldEffects = new HashMap<>();
+    private Weather weather;
+
+    private Side side;
     private Loomian active;
     private List<Loomian> party = new ArrayList<>();
     private HashMap<String, SideFieldEffect> sideFieldEffects = new HashMap<>();
 
+    private BattleParticipant enemy;
 
-    public Side() {
 
-    }
-    public Side(Side other) {
-        this.active = Loomian.copy(active);
+    public BattleParticipant(GameState gameState, int i) {
+        this.gameState = gameState;
 
-        this.party = other.party.stream()
-            .map(Loomian::copy)
-            .collect(Collectors.toList());
+        this.fieldEffects = gameState.getFieldEffects();
+        this.weather = gameState.getWeather();
+
+        this.side = gameState.getSide(i);
         
-        for (String key : other.sideFieldEffects.keySet()) {
-            this.sideFieldEffects.put(key, SideFieldEffect.copy(other.sideFieldEffects.get(key)));
-        }
+        this.active = side.getActive();
+        this.party = side.getParty();
+        this.sideFieldEffects = side.getSideFieldEffects();
     }
-
-    public static Side copy(Side other) {
-        if (other == null) return null;
-        return new Side(other);
-    }
-
 
 
     // getters
+    public Side getSide() {
+        return side;
+    }
     public Loomian getActive() {
         return active;
     }
@@ -49,10 +58,16 @@ public class Side {
     public SideFieldEffect getSideFieldEffect(String key) {
         return sideFieldEffects.get(key);
     }
-
+    
 
 
     // setters
+    public void setSide(Side side) {
+        this.side = side;
+    }
+    public void setEnemy(BattleParticipant enemy) {
+        this.enemy = enemy;
+    }
     public void setActive(Loomian active) {
         this.active = active;
     }
@@ -62,7 +77,6 @@ public class Side {
     public void setSideFieldEffects(HashMap<String, SideFieldEffect> sideFieldEffects) {
         this.sideFieldEffects = sideFieldEffects;
     }
-
 
 
     // has

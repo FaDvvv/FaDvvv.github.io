@@ -17,7 +17,7 @@ public class SpeciesManager {
     private SpeciesManager () {}
 
     public static Species get(String s) {
-        if (speciesMap.get(s) == null) {System.err.println("Attempted to access null loomian \"" + s + "\"");}
+        if (speciesMap.get(s) == null) {System.err.println("Attempted to access null species \"" + s + "\"");}
         return speciesMap.get(s);
     }
 }

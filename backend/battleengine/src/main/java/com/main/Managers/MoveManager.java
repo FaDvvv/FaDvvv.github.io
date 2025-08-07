@@ -17,7 +17,7 @@ public class MoveManager {
     private MoveManager () {}
 
     public static Move get(String s) {
-        if (moveMap.get(s) == null) {System.err.println("Attempted to access null loomian \"" + s + "\"");}
+        if (moveMap.get(s) == null) {System.err.println("Attempted to access null move \"" + s + "\"");}
         return moveMap.get(s);
     }
 }

@@ -17,7 +17,7 @@ public class MinorStatusManager {
     private MinorStatusManager () {}
 
     public static MinorStatus get(String s) {
-        if (minorStatusMap.get(s) == null) {System.err.println("Attempted to access null loomian \"" + s + "\"");}
+        if (minorStatusMap.get(s) == null) {System.err.println("Attempted to access null minor status \"" + s + "\"");}
         return minorStatusMap.get(s);
     }
 }

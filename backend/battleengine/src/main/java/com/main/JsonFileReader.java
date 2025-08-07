@@ -19,8 +19,6 @@ public class JsonFileReader {
             Path path = Paths.get(filePath);
 
             File file = new File("res/" + filePath);
-            System.out.println("filePath: " + file.getCanonicalPath());
-            System.out.println("file exists: " + (file.exists() ? "true" : "false"));
 
             String json = Files.readString(file.toPath());
             Type type = TypeToken.getParameterized(Map.class, String.class, clazz).getType();

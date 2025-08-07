@@ -17,7 +17,7 @@ public class StatusManager {
     private StatusManager () {}
 
     public static Status get(String s) {
-        if (statusMap.get(s) == null) {System.err.println("Attempted to access null loomian \"" + s + "\"");}
+        if (statusMap.get(s) == null) {System.err.println("Attempted to access null status \"" + s + "\"");}
         return statusMap.get(s);
     }
 }

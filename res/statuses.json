@@ -1,20 +1,20 @@
 {
-    "posion": {
-
+    "poison": {
+        "name":"poison"
     },
     "bad poison": {
-
+        "name":"bad poison"
     },
     "paralysis": {
-
+        "name":"paralysis"
     },
     "burn": {
-
+        "name":"burn"
     },
     "frostbite": {
-
+        "name":"frostbite"
     },
     "sleep": {
-
+        "name":"sleep"
     }
 }
