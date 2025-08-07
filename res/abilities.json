@@ -1,7 +1,9 @@
-export const abilities = {
+{
     "ace": {
+
 	},
 	"adaptable": {
+
 	},
 	"adorable": {
 
@@ -196,9 +198,6 @@ export const abilities = {
 
 	},
 	"fortissimo": {
-
-	},
-	"frail armor": {
 
 	},
 	"frail armor": {
