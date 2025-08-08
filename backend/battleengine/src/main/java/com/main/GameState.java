@@ -1,15 +1,15 @@
 package com.main;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class GameState {
 
     private double chance;
     private int chanceCounter;
 
-    private List<Side> sides;
+    private List<Side> sides = new ArrayList<>();
     private HashMap<String, WholeFieldEffect> fieldEffects = new HashMap<>();
     private Weather weather;
 

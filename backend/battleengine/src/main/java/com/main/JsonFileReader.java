@@ -21,6 +21,7 @@ public class JsonFileReader {
         try {
             File file = new File("res/" + filePath);
             String json = Files.readString(file.toPath());
+
             Type type = TypeToken.getParameterized(List.class, clazz).getType();
             return gson.fromJson(json, type);
         } catch (Exception e) {
@@ -33,7 +34,6 @@ public class JsonFileReader {
     public static <T> Map<String, T> readMap(String filePath, Class<T> clazz) {
         try {
             Path path = Paths.get(filePath);
-
             File file = new File("res/" + filePath);
 
             String json = Files.readString(file.toPath());
@@ -46,7 +46,24 @@ public class JsonFileReader {
 
 
 
-    // nested map
+    // map < list >
+    public static <T> Map<String, List<T>> readNestedList(String filePath, Class<T> clazz) {
+        try {
+            File file = new File("res/" + filePath);
+            String json = Files.readString(file.toPath());
+
+            Type listType = TypeToken.getParameterized(List.class, clazz).getType();
+            Type mapType = TypeToken.getParameterized(Map.class, String.class, listType).getType();
+
+            return gson.fromJson(json, mapType);
+        } catch (Exception e) {
+            throw new RuntimeException("Failed to read or parse JSON file: " + filePath, e);
+        }
+    }
+
+
+
+    // map < map >
     public static <T> Map<String, Map<String, T>> readNestedMap(String filePath, Class<T> clazz) {
         try {
             File file = new File("res/" + filePath);

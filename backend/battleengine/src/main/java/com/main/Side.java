@@ -7,6 +7,7 @@ import java.util.stream.Collectors;
 
 public class Side {
     private Loomian active;
+    private int activeI;
     private List<Loomian> party = new ArrayList<>();
     private HashMap<String, SideFieldEffect> sideFieldEffects = new HashMap<>();
 
@@ -16,6 +17,7 @@ public class Side {
     }
     public Side(Side other) {
         this.active = Loomian.copy(active);
+        this.activeI = other.activeI;
 
         this.party = other.party.stream()
             .map(Loomian::copy)
@@ -37,6 +39,9 @@ public class Side {
     public Loomian getActive() {
         return active;
     }
+    public int getActiveI() {
+        return activeI;
+    }
     public List<Loomian> getParty() {
         return party;
     }
@@ -55,6 +60,9 @@ public class Side {
     // setters
     public void setActive(Loomian active) {
         this.active = active;
+    }
+    public void setActiveI(int activeI) {
+        this.activeI = activeI;
     }
     public void setParty(List<Loomian> party) {
         this.party = party;

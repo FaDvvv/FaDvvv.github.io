@@ -5,12 +5,12 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Species {
-    private String name;
-    private int height;
-    private int weight;
-    private List<String> baseAbilities = new ArrayList<>();
-    private List<String> baseTypes = new ArrayList<>();
-    private int[] baseStats = new int[7];
+    protected String name;
+    protected int height;
+    protected int weight;
+    protected List<String> baseAbilities = new ArrayList<>();
+    protected List<String> baseTypes = new ArrayList<>();
+    protected int[] baseStats = new int[7];
 
 
     public Species() {

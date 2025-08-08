@@ -1,8 +1,9 @@
 {
 	"accelerate": {
 		"name":"accelerate",
-		"type":"simple",
+		"types":["simple"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":25,
 		"userEffects":{
@@ -15,8 +16,9 @@
 	},
 	"aim":{
 		"name":"aim",
-		"type":"simple",
+		"types":["simple"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":10,
 		"userEffects":{
@@ -29,8 +31,9 @@
 	},
 	"bait": {
 		"name":"bait",
-		"type":"simple",
+		"types":["simple"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":30,
 		"userEffects":{
@@ -43,22 +46,25 @@
 	},
 	"banana split": {
 		"name":"banana split",
-		"type":"simple",
+		"types":["simple"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":100
 	},
 	"barter": {
 		"name":"barter",
-		"type":"simple",
+		"types":["simple"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":50
 	},
 	"battle chime": {
 		"name":"battle chime",
-		"type":"simple",
+		"types":["simple"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":50,
 		"userEffects":{
@@ -71,8 +77,9 @@
 	},
 	"battle horn": {
 		"name":"battle horn",
-		"type":"simple",
+		"types":["simple"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":30,
 		"userEffects":{
@@ -85,23 +92,26 @@
 	},
 	"bequeath": {
 		"name":"bequeath",
-		"type":"simple",
+		"types":["simple"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":50
 	},
 	"body slam": {
 		"name":"body slam",
-		"type":"simple",
+		"types":["simple"],
 		"category":"MELEE",
+		"style":"",
 		"power":90,
 		"accuracy":100,
 		"energyCost":35
 	},
 	"brace": {
 		"name":"brace",
-		"type":"simple",
+		"types":["simple"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":15,
 		"userEffects":{
@@ -114,60 +124,68 @@
 	},
 	"chase down": {
 		"name":"chase down",
-		"type":"simple",
+		"types":["simple"],
 		"category":"MELEE",
+		"style":"",
 		"power":40,
 		"accuracy":100,
 		"energyCost":30
 	},
 	"climate cannon": {
 		"name":"climate cannon",
-		"type":"simple",
+		"types":["simple"],
 		"category":"RANGED",
+		"style":"",
 		"power":90,
 		"accuracy":100,
 		"energyCost":45
 	},
 	"conclusion": {
 		"name":"conclusion",
-		"type":"simple",
+		"types":["simple"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":40
 	},
 	"dawdle": {
 		"name":"dawdle",
-		"type":"simple",
+		"types":["simple"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":100,
 		"energyCost":10
 	},
 	"daydream": {
 		"name":"daydream",
-		"type":"simple",
+		"types":["simple"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":0
 	},
 	"dissonant chord": {
 		"name":"dissonant chord",
-		"type":"simple",
+		"types":["simple"],
 		"category":"RANGED",
+		"style":"",
 		"power":80,
 		"accuracy":100,
 		"energyCost":40
 	},
 	"dodge": {
 		"name":"dodge",
-		"type":"simple",
+		"types":["simple"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":0
 	},
 	"drudge": {
 		"name":"drudge",
-		"type":"simple",
+		"types":["simple"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":25,
 		"userEffects":{
@@ -180,84 +198,95 @@
 	},
 	"ear slap": {
 		"name":"ear slap",
-		"type":"simple",
+		"types":["simple"],
 		"category":"MELEE",
+		"style":"",
 		"power":15,
 		"accuracy":85,
 		"energyCost":18
 	},
 	"eerie stare": {
 		"name":"eerie stare",
-		"type":"simple",
+		"types":["simple"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":100,
 		"energyCost":25
 	},
 	"enamor": {
 		"name":"enamor",
-		"type":"simple",
+		"types":["simple"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":25
 	},
 	"examine": {
 		"name":"examine",
-		"type":"simple",
+		"types":["simple"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":15
 	},
 	"give up": {
 		"name":"give up",
-		"type":"simple",
+		"types":["simple"],
 		"category":"RANGED",
+		"style":"",
 		"power":1,
 		"accuracy":100,
 		"energyCost":0
 	},
 	"gloominous fangs": {
 		"name":"gloominous fangs",
-		"type":"simple",
+		"types":["simple"],
 		"category":"MELEE",
+		"style":"",
 		"power":85,
 		"accuracy":100,
 		"energyCost":46
 	},
 	"gloominous roar": {
 		"name":"gloominous roar",
-		"type":"simple",
+		"types":["simple"],
 		"category":"RANGED",
+		"style":"",
 		"power":85,
 		"accuracy":100,
 		"energyCost":46
 	},
 	"gnaw": {
 		"name":"gnaw",
-		"type":"simple",
+		"types":["simple"],
 		"category":"MELEE",
+		"style":"",
 		"power":40,
 		"accuracy":100,
 		"energyCost":15
 	},
 	"growl": {
 		"name":"growl",
-		"type":"simple",
+		"types":["simple"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":100,
 		"energyCost":10
 	},
 	"harmonious chord": {
 		"name":"harmonious chord",
-		"type":"simple",
+		"types":["simple"],
 		"category":"RANGED",
+		"style":"",
 		"power":60,
 		"accuracy":100,
 		"energyCost":35
 	},
 	"hasten": {
 		"name":"hasten",
-		"type":"simple",
+		"types":["simple"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":25,
 		"userEffects":{
@@ -270,63 +299,71 @@
 	},
 	"headbutt": {
 		"name":"headbutt",
-		"type":"simple",
+		"types":["simple"],
 		"category":"MELEE",
+		"style":"",
 		"power":60,
 		"accuracy":100,
 		"energyCost":25
 	},
 	"high-pitch screech": {
 		"name":"high-pitch screech",
-		"type":"simple",
+		"types":["simple"],
 		"category":"RANGED",
+		"style":"",
 		"power":80,
 		"accuracy":100,
 		"energyCost":40
 	},
 	"hoodwink": {
 		"name":"hoodwink",
-		"type":"simple",
+		"types":["simple"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":100,
 		"energyCost":35
 	},
 	"hullabaloo": {
 		"name":"hullabaloo",
-		"type":"simple",
+		"types":["simple"],
 		"category":"RANGED",
+		"style":"",
 		"power":75,
 		"accuracy":100,
 		"energyCost":40
 	},
 	"ill will": {
 		"name":"ill will",
-		"type":"simple",
+		"types":["simple"],
 		"category":"MELEE",
+		"style":"",
 		"power":70,
 		"accuracy":100,
 		"energyCost":40
 	},
 	"nab": {
 		"name":"nab",
-		"type":"simple",
+		"types":["simple"],
 		"category":"MELEE",
+		"style":"",
 		"power":75,
 		"accuracy":100,
 		"energyCost":35
 	},
 	"pounce": {
 		"name":"pounce",
-		"type":"simple",
+		"types":["simple"],
 		"category":"MELEE",
+		"style":"",
 		"power":40,
 		"accuracy":100,
 		"energyCost":15
 	},
 	"power focus": {
 		"name":"power focus",
-		"type":"simple",
+		"types":["simple"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":25,
 		"userEffects":{
@@ -339,62 +376,70 @@
 	},
 	"quick pounce": {
 		"name":"quick pounce",
-		"type":"simple",
+		"types":["simple"],
 		"category":"MELEE",
+		"style":"",
 		"power":40,
 		"accuracy":100,
 		"energyCost":25
 	},
 	"raging howl": {
 		"name":"raging howl",
-		"type":"simple",
+		"types":["simple"],
 		"category":"RANGED",
+		"style":"",
 		"power":120,
 		"accuracy":100,
 		"energyCost":60
 	},
 	"raging tackle": {
 		"name":"raging tackle",
-		"type":"simple",
+		"types":["simple"],
 		"category":"MELEE",
+		"style":"",
 		"power":120,
 		"accuracy":100,
 		"energyCost":60
 	},
 	"rainbow blast": {
 		"name":"rainbow blast",
-		"type":"simple",
+		"types":["simple"],
 		"category":"RANGED",
+		"style":"",
 		"power":100,
 		"accuracy":100,
 		"energyCost":50
 	},
 	"recycle": {
 		"name":"recycle",
-		"type":"simple",
+		"types":["simple"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":25
 	},
 	"rejuvenate": {
 		"name":"rejuvenate",
-		"type":"simple",
+		"types":["simple"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":72
 	},
 	"repeating tune": {
 		"name":"repeating tune",
-		"type":"simple",
+		"types":["simple"],
 		"category":"RANGED",
+		"style":"",
 		"power":25,
 		"accuracy":100,
 		"energyCost":25
 	},
 	"resonate": {
 		"name":"resonate",
-		"type":"simple",
+		"types":["simple"],
 		"category":"RANGED",
+		"style":"",
 		"power":90,
 		"accuracy":100,
 		"energyCost":50,
@@ -408,8 +453,9 @@
 	},
 	"safeguard": {
 		"name":"safeguard",
-		"type":"simple",
+		"types":["simple"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":35,
 		"priority":3
@@ -417,31 +463,35 @@
 	},
 	"scapegoat": {
 		"name":"scapegoat",
-		"type":"simple",
+		"types":["simple"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":20
 	},
 	"shriek": {
 		"name":"shriek",
-		"type":"simple",
+		"types":["simple"],
 		"category":"RANGED",
+		"style":"",
 		"power":40,
 		"accuracy":100,
 		"energyCost":15
 	},
 	"slash": {
 		"name":"slash",
-		"type":"simple",
+		"types":["simple"],
 		"category":"MELEE",
+		"style":"",
 		"power":75,
 		"accuracy":100,
 		"energyCost":36
 	},
 	"slumber": {
 		"name":"slumber",
-		"type":"simple",
+		"types":["simple"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":50,
 		"userEffects":{
@@ -453,54 +503,61 @@
 	},
 	"spare": {
 		"name":"spare",
-		"type":"simple",
+		"types":["simple"],
 		"category":"MELEE",
+		"style":"",
 		"power":40,
 		"accuracy":100,
 		"energyCost":15
 	},
 	"spit": {
 		"name":"spit",
-		"type":"simple",
+		"types":["simple"],
 		"category":"RANGED",
+		"style":"",
 		"power":50,
 		"accuracy":100,
 		"energyCost":25
 	},
 	"spit out": {
 		"name":"spit out",
-		"type":"simple",
+		"types":["simple"],
 		"category":"RANGED",
+		"style":"",
 		"power":90,
 		"accuracy":100,
 		"energyCost":50
 	},
 	"squawk": {
 		"name":"squawk",
-		"type":"simple",
+		"types":["simple"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":100,
 		"energyCost":10
 	},
 	"stampede": {
 		"name":"stampede",
-		"type":"simple",
+		"types":["simple"],
 		"category":"MELEE",
+		"style":"",
 		"power":30,
 		"accuracy":100,
 		"energyCost":40
 	},
 	"stare": {
 		"name":"stare",
-		"type":"simple",
+		"types":["simple"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":100,
 		"energyCost":10
 	},
 	"stretch": {
 		"name":"stretch",
-		"type":"simple",
+		"types":["simple"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":15,
 		"userEffects":{
@@ -513,67 +570,76 @@
 	},
 	"strike": {
 		"name":"strike",
-		"type":"simple",
+		"types":["simple"],
 		"category":"MELEE",
+		"style":"",
 		"power":40,
 		"accuracy":100,
 		"energyCost":15
 	},
 	"summon": {
 		"name":"summon",
-		"type":"simple",
+		"types":["simple"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":25
 	},
 	"swipe": {
 		"name":"swipe",
-		"type":"simple",
+		"types":["simple"],
 		"category":"MELEE",
+		"style":"",
 		"power":60,
 		"accuracy":100,
 		"energyCost":22
 	},
 	"tail slap": {
 		"name":"tail slap",
-		"type":"simple",
+		"types":["simple"],
 		"category":"MELEE",
+		"style":"",
 		"power":40,
 		"accuracy":100,
 		"energyCost":10
 	},
 	"teamwork": {
 		"name":"teamwork",
-		"type":"simple",
+		"types":["simple"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":20
 	},
 	"tear down": {
 		"name":"tear down",
-		"type":"simple",
+		"types":["simple"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":35
 	},
 	"tone barrier": {
 		"name":"tone barrier",
-		"type":"simple",
+		"types":["simple"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":0
 	},
 	"tribute": {
 		"name":"tribute",
-		"type":"simple",
+		"types":["simple"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":50
 	},
 	"blaze chomp": {
 		"name":"blaze chomp",
-		"type":"fire",
+		"types":["fire"],
 		"category":"MELEE",
+		"style":"",
 		"power":70,
 		"accuracy":100,
 		"energyCost":35,
@@ -586,8 +652,9 @@
 	},
 	"blaze of glory": {
 		"name":"blaze of glory",
-		"type":"fire",
+		"types":["fire"],
 		"category":"MELEE",
+		"style":"",
 		"power":120,
 		"accuracy":100,
 		"energyCost":60,
@@ -601,8 +668,9 @@
 	},
 	"blaze punch": {
 		"name":"blaze punch",
-		"type":"fire",
+		"types":["fire"],
 		"category":"MELEE",
+		"style":"",
 		"power":70,
 		"accuracy":100,
 		"energyCost":35,
@@ -615,24 +683,27 @@
 	},
 	"blaze rush": {
 		"name":"blaze rush",
-		"type":"fire",
+		"types":["fire"],
 		"category":"MELEE",
+		"style":"",
 		"power":60,
 		"accuracy":100,
 		"energyCost":45
 	},
 	"boiling press": {
 		"name":"boiling press",
-		"type":"fire",
+		"types":["fire"],
 		"category":"MELEE",
+		"style":"",
 		"power":75,
 		"accuracy":100,
 		"energyCost":40
 	},
 	"burn up": {
 		"name":"burn up",
-		"type":"fire",
+		"types":["fire"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":40,
 		"userEffects":{
@@ -645,8 +716,9 @@
 	},
 	"charred claws": {
 		"name":"charred claws",
-		"type":"fire",
+		"types":["fire"],
 		"category":"MELEE",
+		"style":"",
 		"power":90,
 		"accuracy":100,
 		"energyCost":50,
@@ -659,8 +731,9 @@
 	},
 	"eruption": {
 		"name":"eruption",
-		"type":"fire",
+		"types":["fire"],
 		"category":"RANGED",
+		"style":"",
 		"power":125,
 		"accuracy":101,
 		"energyCost":0,
@@ -669,16 +742,18 @@
 	},
 	"fiery fondant": {
 		"name":"fiery fondant",
-		"type":"fire",
+		"types":["fire"],
 		"category":"MELEE",
+		"style":"",
 		"power":90,
 		"accuracy":100,
 		"energyCost":55
 	},
 	"fire breath": {
 		"name":"fire breath",
-		"type":"fire",
+		"types":["fire"],
 		"category":"RANGED",
+		"style":"",
 		"power":90,
 		"accuracy":100,
 		"energyCost":50,
@@ -691,8 +766,9 @@
 	},
 	"fire slam": {
 		"name":"fire slam",
-		"type":"fire",
+		"types":["fire"],
 		"category":"MELEE",
+		"style":"",
 		"power":65,
 		"accuracy":100,
 		"energyCost":26,
@@ -705,8 +781,9 @@
 	},
 	"flaming kick": {
 		"name":"flaming kick",
-		"type":"fire",
+		"types":["fire"],
 		"category":"MELEE",
+		"style":"",
 		"power":80,
 		"accuracy":90,
 		"energyCost":40,
@@ -719,8 +796,9 @@
 	},
 	"flare blast": {
 		"name":"flare blast",
-		"type":"fire",
+		"types":["fire"],
 		"category":"RANGED",
+		"style":"",
 		"power":110,
 		"accuracy":80,
 		"energyCost":60,
@@ -733,15 +811,17 @@
 	},
 	"heat wave": {
 		"name":"heat wave",
-		"type":"fire",
+		"types":["fire"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":25
 	},
 	"hellstorm": {
 		"name":"hellstorm",
-		"type":"fire",
+		"types":["fire"],
 		"category":"RANGED",
+		"style":"",
 		"power":100,
 		"accuracy":101,
 		"energyCost":0,
@@ -750,8 +830,9 @@
 	},
 	"incinerate": {
 		"name":"incinerate",
-		"type":"fire",
+		"types":["fire"],
 		"category":"RANGED",
+		"style":"",
 		"power":130,
 		"accuracy":100,
 		"energyCost":60
@@ -759,8 +840,9 @@
 	},
 	"kindled rage": {
 		"name":"kindled rage",
-		"type":"fire",
+		"types":["fire"],
 		"category":"MELEE",
+		"style":"",
 		"power":70,
 		"accuracy":100,
 		"energyCost":45
@@ -768,8 +850,9 @@
 	},
 	"lava slash": {
 		"name":"lava slash",
-		"type":"fire",
+		"types":["fire"],
 		"category":"MELEE",
+		"style":"",
 		"power":70,
 		"accuracy":100,
 		"energyCost":45,
@@ -783,16 +866,18 @@
 	},
 	"magma block": {
 		"name":"magma block",
-		"type":"fire",
+		"types":["fire"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":0
 	
 	},
 	"magma burst": {
 		"name":"magma burst",
-		"type":"fire",
+		"types":["fire"],
 		"category":"RANGED",
+		"style":"",
 		"power":85,
 		"accuracy":100,
 		"energyCost":45,
@@ -806,8 +891,9 @@
 	},
 	"meltdown": {
 		"name":"meltdown",
-		"type":"fire",
+		"types":["fire"],
 		"category":"RANGED",
+		"style":"",
 		"power":100,
 		"accuracy":101,
 		"energyCost":0,
@@ -816,23 +902,26 @@
 	},
 	"pepper burst": {
 		"name":"pepper burst",
-		"type":"fire",
+		"types":["fire"],
 		"category":"RANGED",
+		"style":"",
 		"power":35,
 		"accuracy":100,
 		"energyCost":40
 	},
 	"phoenix flame": {
 		"name":"phoenix flame",
-		"type":"fire",
+		"types":["fire"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":0
 	},
 	"pyrokinesis": {
 		"name":"pyrokinesis",
-		"type":"fire",
+		"types":["fire"],
 		"category":"RANGED",
+		"style":"",
 		"power":65,
 		"accuracy":100,
 		"energyCost":38,
@@ -845,8 +934,9 @@
 	},
 	"raging flame": {
 		"name":"raging flame",
-		"type":"fire",
+		"types":["fire"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":90,
 		"energyCost":35,
 		"enemyEffects":{
@@ -858,8 +948,9 @@
 	},
 	"rapid fire": {
 		"name":"rapid fire",
-		"type":"fire",
+		"types":["fire"],
 		"category":"RANGED",
+		"style":"",
 		"power":20,
 		"accuracy":95,
 		"energyCost":32,
@@ -872,8 +963,9 @@
 	},
 	"singe": {
 		"name":"singe",
-		"type":"fire",
+		"types":["fire"],
 		"category":"RANGED",
+		"style":"",
 		"power":40,
 		"accuracy":100,
 		"energyCost":20,
@@ -886,31 +978,35 @@
 	},
 	"aqua jaws": {
 		"name":"aqua jaws",
-		"type":"water",
+		"types":["water"],
 		"category":"MELEE",
+		"style":"",
 		"power":65,
 		"accuracy":90,
 		"energyCost":38
 	},
 	"douse": {
 		"name":"douse",
-		"type":"water",
+		"types":["water"],
 		"category":"RANGED",
+		"style":"",
 		"power":90,
 		"accuracy":100,
 		"energyCost":50
 	},
 	"downpour": {
 		"name":"downpour",
-		"type":"water",
+		"types":["water"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":25
 	},
 	"geyser": {
 		"name":"geyser",
-		"type":"water",
+		"types":["water"],
 		"category":"RANGED",
+		"style":"",
 		"power":80,
 		"accuracy":100,
 		"energyCost":40,
@@ -923,8 +1019,9 @@
 	},
 	"heedless rush": {
 		"name":"heedless rush",
-		"type":"water",
+		"types":["water"],
 		"category":"MELEE",
+		"style":"",
 		"power":100,
 		"accuracy":101,
 		"energyCost":0,
@@ -933,40 +1030,45 @@
 	},
 	"hydro blast": {
 		"name":"hydro blast",
-		"type":"water",
+		"types":["water"],
 		"category":"RANGED",
+		"style":"",
 		"power":110,
 		"accuracy":80,
 		"energyCost":60
 	},
 	"hydro slash": {
 		"name":"hydro slash",
-		"type":"water",
+		"types":["water"],
 		"category":"MELEE",
+		"style":"",
 		"power":70,
 		"accuracy":100,
 		"energyCost":36
 	},
 	"maroon": {
 		"name":"maroon",
-		"type":"water",
+		"types":["water"],
 		"category":"RANGED",
+		"style":"",
 		"power":70,
 		"accuracy":100,
 		"energyCost":45
 	},
 	"marsh wave": {
 		"name":"marsh wave",
-		"type":"water",
+		"types":["water"],
 		"category":"RANGED",
+		"style":"",
 		"power":75,
 		"accuracy":100,
 		"energyCost":45
 	},
 	"piercing drive": {
 		"name":"piercing drive",
-		"type":"water",
+		"types":["water"],
 		"category":"MELEE",
+		"style":"",
 		"power":85,
 		"accuracy":90,
 		"energyCost":40,
@@ -975,24 +1077,27 @@
 	},
 	"plunge": {
 		"name":"plunge",
-		"type":"water",
+		"types":["water"],
 		"category":"MELEE",
+		"style":"",
 		"power":90,
 		"accuracy":100,
 		"energyCost":35
 	},
 	"sea song": {
 		"name":"sea song",
-		"type":"water",
+		"types":["water"],
 		"category":"RANGED",
+		"style":"",
 		"power":60,
 		"accuracy":100,
 		"energyCost":60
 	},
 	"shell bash": {
 		"name":"shell bash",
-		"type":"water",
+		"types":["water"],
 		"category":"MELEE",
+		"style":"",
 		"power":110,
 		"accuracy":100,
 		"energyCost":56,
@@ -1006,8 +1111,9 @@
 	},
 	"shell shrapnel": {
 		"name":"shell shrapnel",
-		"type":"water",
+		"types":["water"],
 		"category":"RANGED",
+		"style":"",
 		"power":110,
 		"accuracy":100,
 		"energyCost":56,
@@ -1021,23 +1127,26 @@
 	},
 	"soft water": {
 		"name":"soft water",
-		"type":"water",
+		"types":["water"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":50
 	},
 	"spray": {
 		"name":"spray",
-		"type":"water",
+		"types":["water"],
 		"category":"RANGED",
+		"style":"",
 		"power":40,
 		"accuracy":100,
 		"energyCost":20
 	},
 	"submerge": {
 		"name":"submerge",
-		"type":"water",
+		"types":["water"],
 		"category":"MELEE",
+		"style":"",
 		"power":75,
 		"accuracy":100,
 		"energyCost":30,
@@ -1046,63 +1155,71 @@
 	},
 	"torrential slash": {
 		"name":"torrential slash",
-		"type":"water",
+		"types":["water"],
 		"category":"MELEE",
+		"style":"",
 		"power":95,
 		"accuracy":100,
 		"energyCost":50
 	},
 	"tsunami": {
 		"name":"tsunami",
-		"type":"water",
+		"types":["water"],
 		"category":"RANGED",
+		"style":"",
 		"power":90,
 		"accuracy":100,
 		"energyCost":50
 	},
 	"vicious snap": {
 		"name":"vicious snap",
-		"type":"water",
+		"types":["water"],
 		"category":"MELEE",
+		"style":"",
 		"power":75,
 		"accuracy":100,
 		"energyCost":45
 	},
 	"water bomb": {
 		"name":"water bomb",
-		"type":"water",
+		"types":["water"],
 		"category":"RANGED",
+		"style":"",
 		"power":60,
 		"accuracy":100,
 		"energyCost":26
 	},
 	"wave wrecker": {
 		"name":"wave wrecker",
-		"type":"water",
+		"types":["water"],
 		"category":"MELEE",
+		"style":"",
 		"power":90,
 		"accuracy":100,
 		"energyCost":50
 	},
 	"briar block": {
 		"name":"briar block",
-		"type":"plant",
+		"types":["plant"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":0
 	},
 	"bush whack": {
 		"name":"bush whack",
-		"type":"plant",
+		"types":["plant"],
 		"category":"MELEE",
+		"style":"",
 		"power":65,
 		"accuracy":100,
 		"energyCost":35
 	},
 	"carnivorous snap": {
 		"name":"carnivorous snap",
-		"type":"plant",
+		"types":["plant"],
 		"category":"MELEE",
+		"style":"",
 		"power":100,
 		"accuracy":101,
 		"energyCost":0,
@@ -1111,8 +1228,9 @@
 	},
 	"coconut bomb": {
 		"name":"coconut bomb",
-		"type":"plant",
+		"types":["plant"],
 		"category":"MELEE",
+		"style":"",
 		"power":90,
 		"accuracy":100,
 		"energyCost":45,
@@ -1125,8 +1243,9 @@
 	},
 	"flora blast": {
 		"name":"flora blast",
-		"type":"plant",
+		"types":["plant"],
 		"category":"RANGED",
+		"style":"",
 		"power":100,
 		"accuracy":101,
 		"energyCost":0,
@@ -1135,98 +1254,111 @@
 	},
 	"fungus curse": {
 		"name":"fungus curse",
-		"type":"plant",
+		"types":["plant"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":25
 	},
 	"harvest": {
 		"name":"harvest",
-		"type":"plant",
+		"types":["plant"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":72
 	},
 	"herbal remedy": {
 		"name":"herbal remedy",
-		"type":"plant",
+		"types":["plant"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":70
 	},
 	"leaf barrage": {
 		"name":"leaf barrage",
-		"type":"plant",
+		"types":["plant"],
 		"category":"RANGED",
+		"style":"",
 		"power":65,
 		"accuracy":90,
 		"energyCost":30
 	},
 	"life drain": {
 		"name":"life drain",
-		"type":"plant",
+		"types":["plant"],
 		"category":"RANGED",
+		"style":"",
 		"power":75,
 		"accuracy":100,
 		"energyCost":48
 	},
 	"nature's force": {
 		"name":"nature's force",
-		"type":"plant",
+		"types":["plant"],
 		"category":"RANGED",
+		"style":"",
 		"power":90,
 		"accuracy":100,
 		"energyCost":50
 	},
 	"nature's rage": {
 		"name":"nature's rage",
-		"type":"plant",
+		"types":["plant"],
 		"category":"MELEE",
+		"style":"",
 		"power":70,
 		"accuracy":100,
 		"energyCost":55
 	},
 	"petal pummel": {
 		"name":"petal pummel",
-		"type":"plant",
+		"types":["plant"],
 		"category":"MELEE",
+		"style":"",
 		"power":40,
 		"accuracy":100,
 		"energyCost":20
 	},
 	"photosynthesis": {
 		"name":"photosynthesis",
-		"type":"plant",
+		"types":["plant"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":72
 	},
 	"pine shot": {
 		"name":"pine shot",
-		"type":"plant",
+		"types":["plant"],
 		"category":"RANGED",
+		"style":"",
 		"power":25,
 		"accuracy":100,
 		"energyCost":25
 	},
 	"sap plant": {
 		"name":"sap plant",
-		"type":"plant",
+		"types":["plant"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":90,
 		"energyCost":30
 	},
 	"snore spores": {
 		"name":"snore spores",
-		"type":"plant",
+		"types":["plant"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":90,
 		"energyCost":40
 	},
 	"static spores": {
 		"name":"static spores",
-		"type":"plant",
+		"types":["plant"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":90,
 		"energyCost":25,
 		"enemyEffects":{
@@ -1238,61 +1370,69 @@
 	},
 	"take root": {
 		"name":"take root",
-		"type":"plant",
+		"types":["plant"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":40
 	},
 	"thistle slash": {
 		"name":"thistle slash",
-		"type":"plant",
+		"types":["plant"],
 		"category":"MELEE",
+		"style":"",
 		"power":70,
 		"accuracy":100,
 		"energyCost":36
 	},
 	"thorn slam": {
 		"name":"thorn slam",
-		"type":"plant",
+		"types":["plant"],
 		"category":"MELEE",
+		"style":"",
 		"power":110,
 		"accuracy":100,
 		"energyCost":55
 	},
 	"timber thrash": {
 		"name":"timber thrash",
-		"type":"plant",
+		"types":["plant"],
 		"category":"MELEE",
+		"style":"",
 		"power":120,
 		"accuracy":100,
 		"energyCost":60
 	},
 	"trip root": {
 		"name":"trip root",
-		"type":"plant",
+		"types":["plant"],
 		"category":"RANGED",
+		"style":"",
 		"accuracy":100,
 		"energyCost":30
 	},
 	"vine lash": {
 		"name":"vine lash",
-		"type":"plant",
+		"types":["plant"],
 		"category":"MELEE",
+		"style":"",
 		"power":90,
 		"accuracy":100,
 		"energyCost":50
 	},
 	"wonder herb": {
 		"name":"wonder herb",
-		"type":"plant",
+		"types":["plant"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":35
 	},
 	"blindspot batter": {
 		"name":"blindspot batter",
-		"type":"light",
+		"types":["light"],
 		"category":"MELEE",
+		"style":"",
 		"power":75,
 		"accuracy":100,
 		"energyCost":38,
@@ -1301,16 +1441,18 @@
 	},
 	"dazzling barrage": {
 		"name":"dazzling barrage",
-		"type":"light",
+		"types":["light"],
 		"category":"MELEE",
+		"style":"",
 		"power":25,
 		"accuracy":100,
 		"energyCost":25
 	},
 	"disperse": {
 		"name":"disperse",
-		"type":"light",
+		"types":["light"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":25,
 		"userEffects":{
@@ -1323,95 +1465,107 @@
 	},
 	"energy surge": {
 		"name":"energy surge",
-		"type":"light",
+		"types":["light"],
 		"category":"RANGED",
+		"style":"",
 		"power":70,
 		"accuracy":100,
 		"energyCost":40
 	},
 	"flare": {
 		"name":"flare",
-		"type":"light",
+		"types":["light"],
 		"category":"RANGED",
+		"style":"",
 		"power":70,
 		"accuracy":100,
 		"energyCost":50
 	},
 	"flash": {
 		"name":"flash",
-		"type":"light",
+		"types":["light"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":90,
 		"energyCost":25
 	},
 	"flash 'n flee": {
 		"name":"flash 'n flee",
-		"type":"light",
+		"types":["light"],
 		"category":"RANGED",
+		"style":"",
 		"power":70,
 		"accuracy":100,
 		"energyCost":50
 	},
 	"flash pulse": {
 		"name":"flash pulse",
-		"type":"light",
+		"types":["light"],
 		"category":"RANGED",
+		"style":"",
 		"power":85,
 		"accuracy":90,
 		"energyCost":42
 	},
 	"gamma pulse": {
 		"name":"gamma pulse",
-		"type":"light",
+		"types":["light"],
 		"category":"RANGED",
+		"style":"",
 		"power":80,
 		"accuracy":100,
 		"energyCost":40
 	},
 	"hyper sting": {
 		"name":"hyper sting",
-		"type":"light",
+		"types":["light"],
 		"category":"MELEE",
+		"style":"",
 		"power":90,
 		"accuracy":100,
 		"energyCost":55
 	},
 	"light dash": {
 		"name":"light dash",
-		"type":"light",
+		"types":["light"],
 		"category":"MELEE",
+		"style":"",
 		"power":40,
 		"accuracy":100,
 		"energyCost":25
 	},
 	"lightspeed ray": {
 		"name":"lightspeed ray",
-		"type":"light",
+		"types":["light"],
 		"category":"RANGED",
+		"style":"",
 		"power":40,
 		"accuracy":100,
 		"energyCost":25
 	},
 	"luminous roar": {
 		"name":"luminous roar",
-		"type":"light",
+		"types":["light"],
 		"category":"RANGED",
+		"style":"",
 		"power":75,
 		"accuracy":90,
 		"energyCost":36
 	},
 	"luster loot": {
 		"name":"luster loot",
-		"type":"light",
+		"types":["light"],
 		"category":"RANGED",
+		"style":"",
 		"power":50,
 		"accuracy":100,
 		"energyCost":35
 	},
 	"magnify": {
 		"name":"magnify",
-		"type":"light",
+		"types":["light"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":25,
 		"userEffects":{
@@ -1424,8 +1578,9 @@
 	},
 	"miracle beam": {
 		"name":"miracle beam",
-		"type":"light",
+		"types":["light"],
 		"category":"RANGED",
+		"style":"",
 		"power":100,
 		"accuracy":101,
 		"energyCost":0,
@@ -1434,16 +1589,18 @@
 	},
 	"nova blast": {
 		"name":"nova blast",
-		"type":"light",
+		"types":["light"],
 		"category":"RANGED",
+		"style":"",
 		"power":95,
 		"accuracy":100,
 		"energyCost":52
 	},
 	"radiant forecast": {
 		"name":"radiant forecast",
-		"type":"light",
+		"types":["light"],
 		"category":"RANGED",
+		"style":"",
 		"power":110,
 		"accuracy":100,
 		"energyCost":44,
@@ -1452,24 +1609,27 @@
 	},
 	"radiant rush": {
 		"name":"radiant rush",
-		"type":"light",
+		"types":["light"],
 		"category":"MELEE",
+		"style":"",
 		"power":100,
 		"accuracy":90,
 		"energyCost":50
 	},
 	"shine": {
 		"name":"shine",
-		"type":"light",
+		"types":["light"],
 		"category":"RANGED",
+		"style":"",
 		"power":40,
 		"accuracy":100,
 		"energyCost":20
 	},
 	"solar punch": {
 		"name":"solar punch",
-		"type":"light",
+		"types":["light"],
 		"category":"MELEE",
+		"style":"",
 		"power":100,
 		"accuracy":100,
 		"energyCost":50,
@@ -1483,30 +1643,34 @@
 	},
 	"aggravate": {
 		"name":"aggravate",
-		"type":"dark",
+		"types":["dark"],
 		"category":"RANGED",
+		"style":"",
 		"power":30,
 		"accuracy":100,
 		"energyCost":20
 	},
 	"baffle": {
 		"name":"baffle",
-		"type":"dark",
+		"types":["dark"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":100,
 		"energyCost":50
 	},
 	"bag of tricks": {
 		"name":"bag of tricks",
-		"type":"dark",
+		"types":["dark"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":100,
 		"energyCost":25
 	},
 	"bamboozle": {
 		"name":"bamboozle",
-		"type":"dark",
+		"types":["dark"],
 		"category":"MELEE",
+		"style":"",
 		"power":60,
 		"accuracy":101,
 		"energyCost":26,
@@ -1515,55 +1679,62 @@
 	},
 	"blood drain": {
 		"name":"blood drain",
-		"type":"dark",
+		"types":["dark"],
 		"category":"MELEE",
+		"style":"",
 		"power":20,
 		"accuracy":90,
 		"energyCost":30
 	},
 	"charade": {
 		"name":"charade",
-		"type":"dark",
+		"types":["dark"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":100,
 		"energyCost":25
 	},
 	"chomp": {
 		"name":"chomp",
-		"type":"dark",
+		"types":["dark"],
 		"category":"MELEE",
+		"style":"",
 		"power":45,
 		"accuracy":100,
 		"energyCost":20
 	},
 	"dark surge": {
 		"name":"dark surge",
-		"type":"dark",
+		"types":["dark"],
 		"category":"RANGED",
+		"style":"",
 		"power":80,
 		"accuracy":100,
 		"energyCost":40
 	},
 	"dive bomb": {
 		"name":"dive bomb",
-		"type":"dark",
+		"types":["dark"],
 		"category":"MELEE",
+		"style":"",
 		"power":60,
 		"accuracy":90,
 		"energyCost":26
 	},
 	"egg lob": {
 		"name":"egg lob",
-		"type":"dark",
+		"types":["dark"],
 		"category":"RANGED",
+		"style":"",
 		"power":100,
 		"accuracy":100,
 		"energyCost":46
 	},
 	"egg onslaught": {
 		"name":"egg onslaught",
-		"type":"dark",
+		"types":["dark"],
 		"category":"RANGED",
+		"style":"",
 		"power":125,
 		"accuracy":101,
 		"energyCost":0,
@@ -1572,78 +1743,88 @@
 	},
 	"egg storm": {
 		"name":"egg storm",
-		"type":"dark",
+		"types":["dark"],
 		"category":"RANGED",
+		"style":"",
 		"power":90,
 		"accuracy":100,
 		"energyCost":52
 	},
 	"gain drain": {
 		"name":"gain drain",
-		"type":"dark",
+		"types":["dark"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":30
 	},
 	"gloom fangs": {
 		"name":"gloom fangs",
-		"type":"dark",
+		"types":["dark"],
 		"category":"MELEE",
+		"style":"",
 		"power":75,
 		"accuracy":90,
 		"energyCost":36
 	},
 	"gnarly gash": {
 		"name":"gnarly gash",
-		"type":"dark",
+		"types":["dark"],
 		"category":"MELEE",
+		"style":"",
 		"power":90,
 		"accuracy":100,
 		"energyCost":50
 	},
 	"mega chomp": {
 		"name":"mega chomp",
-		"type":"dark",
+		"types":["dark"],
 		"category":"MELEE",
+		"style":"",
 		"power":80,
 		"accuracy":100,
 		"energyCost":40
 	},
 	"pilfer": {
 		"name":"pilfer",
-		"type":"dark",
+		"types":["dark"],
 		"category":"MELEE",
+		"style":"",
 		"power":60,
 		"accuracy":100,
 		"energyCost":32
 	},
 	"provoke": {
 		"name":"provoke",
-		"type":"dark",
+		"types":["dark"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":100,
 		"energyCost":25
 	},
 	"rant": {
 		"name":"rant",
-		"type":"dark",
+		"types":["dark"],
 		"category":"RANGED",
+		"style":"",
 		"power":65,
 		"accuracy":90,
 		"energyCost":32
 	},
 	"revolution": {
 		"name":"revolution",
-		"type":"dark",
+		"types":["dark"],
 		"category":"MELEE",
+		"style":"",
 		"power":70,
 		"accuracy":100,
 		"energyCost":45
 	},
 	"shadow lurk": {
 		"name":"shadow lurk",
-		"type":"dark",
+		"types":["dark"],
 		"category":"RANGED",
+		"style":"",
 		"power":100,
 		"accuracy":101,
 		"energyCost":55,
@@ -1652,16 +1833,18 @@
 	},
 	"shadow pulse": {
 		"name":"shadow pulse",
-		"type":"dark",
+		"types":["dark"],
 		"category":"RANGED",
+		"style":"",
 		"power":80,
 		"accuracy":100,
 		"energyCost":40
 	},
 	"sharpen": {
 		"name":"sharpen",
-		"type":"dark",
+		"types":["dark"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":25,
 		"userEffects":{
@@ -1674,8 +1857,9 @@
 	},
 	"sinister shackles": {
 		"name":"sinister shackles",
-		"type":"dark",
+		"types":["dark"],
 		"category":"RANGED",
+		"style":"",
 		"power":100,
 		"accuracy":101,
 		"energyCost":0,
@@ -1684,53 +1868,60 @@
 	},
 	"slap down": {
 		"name":"slap down",
-		"type":"dark",
+		"types":["dark"],
 		"category":"MELEE",
+		"style":"",
 		"power":65,
 		"accuracy":100,
 		"energyCost":45
 	},
 	"soul drain": {
 		"name":"soul drain",
-		"type":"dark",
+		"types":["dark"],
 		"category":"RANGED",
+		"style":"",
 		"power":80,
 		"accuracy":100,
 		"energyCost":50
 	},
 	"square one": {
 		"name":"square one",
-		"type":"dark",
+		"types":["dark"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":30
 	},
 	"talent trade": {
 		"name":"talent trade",
-		"type":"dark",
+		"types":["dark"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":40
 	},
 	"tricky tactics": {
 		"name":"tricky tactics",
-		"type":"dark",
+		"types":["dark"],
 		"category":"MELEE",
+		"style":"",
 		"power":95,
 		"accuracy":100,
 		"energyCost":55
 	},
 	"tease": {
 		"name":"tease",
-		"type":"dark",
+		"types":["dark"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":100,
 		"energyCost":20
 	},
 	"bitter cold": {
 		"name":"bitter cold",
-		"type":"ice",
+		"types":["ice"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":90,
 		"energyCost":35,
 		"enemyEffects":{
@@ -1742,16 +1933,18 @@
 	},
 	"brain freeze": {
 		"name":"brain freeze",
-		"type":"ice",
+		"types":["ice"],
 		"category":"RANGED",
+		"style":"",
 		"power":80,
 		"accuracy":100,
 		"energyCost":44
 	},
 	"chilly chomp": {
 		"name":"chilly chomp",
-		"type":"ice",
+		"types":["ice"],
 		"category":"MELEE",
+		"style":"",
 		"power":70,
 		"accuracy":100,
 		"energyCost":35,
@@ -1764,16 +1957,18 @@
 	},
 	"deep freeze": {
 		"name":"deep freeze",
-		"type":"ice",
+		"types":["ice"],
 		"category":"RANGED",
+		"style":"",
 		"power":75,
 		"accuracy":100,
 		"energyCost":40
 	},
 	"flurry": {
 		"name":"flurry",
-		"type":"ice",
+		"types":["ice"],
 		"category":"RANGED",
+		"style":"",
 		"power":40,
 		"accuracy":100,
 		"energyCost":22,
@@ -1786,8 +1981,9 @@
 	},
 	"frost beam": {
 		"name":"frost beam",
-		"type":"ice",
+		"types":["ice"],
 		"category":"RANGED",
+		"style":"",
 		"power":90,
 		"accuracy":100,
 		"energyCost":50,
@@ -1800,8 +1996,9 @@
 	},
 	"frost blast": {
 		"name":"frost blast",
-		"type":"ice",
+		"types":["ice"],
 		"category":"RANGED",
+		"style":"",
 		"power":110,
 		"accuracy":80,
 		"energyCost":60,
@@ -1814,16 +2011,18 @@
 	},
 	"frost breath": {
 		"name":"frost breath",
-		"type":"ice",
+		"types":["ice"],
 		"category":"RANGED",
+		"style":"",
 		"power":60,
 		"accuracy":100,
 		"energyCost":38
 	},
 	"frost punch": {
 		"name":"frost punch",
-		"type":"ice",
+		"types":["ice"],
 		"category":"MELEE",
+		"style":"",
 		"power":70,
 		"accuracy":100,
 		"energyCost":35,
@@ -1836,47 +2035,53 @@
 	},
 	"ice hammer": {
 		"name":"ice hammer",
-		"type":"ice",
+		"types":["ice"],
 		"category":"MELEE",
+		"style":"",
 		"power":95,
 		"accuracy":100,
 		"energyCost":50
 	},
 	"icicle fangs": {
 		"name":"icicle fangs",
-		"type":"ice",
+		"types":["ice"],
 		"category":"MELEE",
+		"style":"",
 		"power":80,
 		"accuracy":100,
 		"energyCost":40
 	},
 	"icicle trap": {
 		"name":"icicle trap",
-		"type":"ice",
+		"types":["ice"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":45
 	},
 	"icicle tremor": {
 		"name":"icicle tremor",
-		"type":"ice",
+		"types":["ice"],
 		"category":"MELEE",
+		"style":"",
 		"power":90,
 		"accuracy":100,
 		"energyCost":50
 	},
 	"out of order": {
 		"name":"out of order",
-		"type":"ice",
+		"types":["ice"],
 		"category":"RANGED",
+		"style":"",
 		"power":150,
 		"accuracy":100,
 		"energyCost":60
 	},
 	"peppermint breath": {
 		"name":"peppermint breath",
-		"type":"ice",
+		"types":["ice"],
 		"category":"RANGED",
+		"style":"",
 		"power":75,
 		"accuracy":100,
 		"energyCost":40,
@@ -1889,16 +2094,18 @@
 	},
 	"sleet shot": {
 		"name":"sleet shot",
-		"type":"ice",
+		"types":["ice"],
 		"category":"RANGED",
+		"style":"",
 		"power":55,
 		"accuracy":95,
 		"energyCost":28
 	},
 	"snot shot": {
 		"name":"snot shot",
-		"type":"ice",
+		"types":["ice"],
 		"category":"RANGED",
+		"style":"",
 		"power":60,
 		"accuracy":100,
 		"energyCost":30,
@@ -1911,32 +2118,36 @@
 	},
 	"snowdozer": {
 		"name":"snowdozer",
-		"type":"ice",
+		"types":["ice"],
 		"category":"MELEE",
+		"style":"",
 		"power":30,
 		"accuracy":90,
 		"energyCost":24
 	},
 	"spike rush": {
 		"name":"spike rush",
-		"type":"ice",
+		"types":["ice"],
 		"category":"MELEE",
+		"style":"",
 		"power":40,
 		"accuracy":100,
 		"energyCost":25
 	},
 	"winter's fury": {
 		"name":"winter's fury",
-		"type":"ice",
+		"types":["ice"],
 		"category":"MELEE",
+		"style":"",
 		"power":30,
 		"accuracy":100,
 		"energyCost":55
 	},
 	"electro blast": {
 		"name":"electro blast",
-		"type":"electric",
+		"types":["electric"],
 		"category":"RANGED",
+		"style":"",
 		"power":125,
 		"accuracy":101,
 		"energyCost":0,
@@ -1945,8 +2156,9 @@
 	},
 	"electro-punch": {
 		"name":"electro-punch",
-		"type":"electric",
+		"types":["electric"],
 		"category":"MELEE",
+		"style":"",
 		"power":70,
 		"accuracy":100,
 		"energyCost":35,
@@ -1959,8 +2171,9 @@
 	},
 	"electroburst": {
 		"name":"electroburst",
-		"type":"electric",
+		"types":["electric"],
 		"category":"RANGED",
+		"style":"",
 		"power":100,
 		"accuracy":90,
 		"energyCost":54,
@@ -1973,8 +2186,9 @@
 	},
 	"energize": {
 		"name":"energize",
-		"type":"electric",
+		"types":["electric"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":25,
 		"userEffects":{
@@ -1987,8 +2201,9 @@
 	},
 	"fulgur fangs": {
 		"name":"fulgur fangs",
-		"type":"electric",
+		"types":["electric"],
 		"category":"MELEE",
+		"style":"",
 		"power":100,
 		"accuracy":101,
 		"energyCost":0,
@@ -1997,16 +2212,18 @@
 	},
 	"jolt": {
 		"name":"jolt",
-		"type":"electric",
+		"types":["electric"],
 		"category":"RANGED",
+		"style":"",
 		"power":40,
 		"accuracy":100,
 		"energyCost":25
 	},
 	"jump start": {
 		"name":"jump start",
-		"type":"electric",
+		"types":["electric"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":40,
 		"userEffects":{
@@ -2019,24 +2236,27 @@
 	},
 	"power draw": {
 		"name":"power draw",
-		"type":"electric",
+		"types":["electric"],
 		"category":"RANGED",
+		"style":"",
 		"power":80,
 		"accuracy":100,
 		"energyCost":50
 	},
 	"power siphon": {
 		"name":"power siphon",
-		"type":"electric",
+		"types":["electric"],
 		"category":"MELEE",
+		"style":"",
 		"power":20,
 		"accuracy":90,
 		"energyCost":32
 	},
 	"power surge": {
 		"name":"power surge",
-		"type":"electric",
+		"types":["electric"],
 		"category":"RANGED",
+		"style":"",
 		"power":80,
 		"accuracy":100,
 		"energyCost":50,
@@ -2049,8 +2269,9 @@
 	},
 	"precision bolt": {
 		"name":"precision bolt",
-		"type":"electric",
+		"types":["electric"],
 		"category":"RANGED",
+		"style":"",
 		"power":60,
 		"accuracy":101,
 		"energyCost":26,
@@ -2059,8 +2280,9 @@
 	},
 	"static shock": {
 		"name":"static shock",
-		"type":"electric",
+		"types":["electric"],
 		"category":"RANGED",
+		"style":"",
 		"power":40,
 		"accuracy":100,
 		"energyCost":20,
@@ -2073,8 +2295,9 @@
 	},
 	"storm summon": {
 		"name":"storm summon",
-		"type":"electric",
+		"types":["electric"],
 		"category":"RANGED",
+		"style":"",
 		"power":50,
 		"accuracy":100,
 		"energyCost":46,
@@ -2087,8 +2310,9 @@
 	},
 	"stun": {
 		"name":"stun",
-		"type":"electric",
+		"types":["electric"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":90,
 		"energyCost":35,
 		"enemyEffects":{
@@ -2101,8 +2325,9 @@
 	},
 	"tase": {
 		"name":"tase",
-		"type":"electric",
+		"types":["electric"],
 		"category":"MELEE",
+		"style":"",
 		"power":20,
 		"accuracy":100,
 		"energyCost":35,
@@ -2115,8 +2340,9 @@
 	},
 	"thunder blast": {
 		"name":"thunder blast",
-		"type":"electric",
+		"types":["electric"],
 		"category":"RANGED",
+		"style":"",
 		"power":110,
 		"accuracy":80,
 		"energyCost":60,
@@ -2129,8 +2355,9 @@
 	},
 	"thunder chomp": {
 		"name":"thunder chomp",
-		"type":"electric",
+		"types":["electric"],
 		"category":"MELEE",
+		"style":"",
 		"power":70,
 		"accuracy":100,
 		"energyCost":35,
@@ -2143,24 +2370,27 @@
 	},
 	"thunder clap": {
 		"name":"thunder clap",
-		"type":"electric",
+		"types":["electric"],
 		"category":"MELEE",
+		"style":"",
 		"power":80,
 		"accuracy":100,
 		"energyCost":45
 	},
 	"thunder crash": {
 		"name":"thunder crash",
-		"type":"electric",
+		"types":["electric"],
 		"category":"MELEE",
+		"style":"",
 		"power":95,
 		"accuracy":100,
 		"energyCost":40
 	},
 	"thunder slam": {
 		"name":"thunder slam",
-		"type":"electric",
+		"types":["electric"],
 		"category":"MELEE",
+		"style":"",
 		"power":65,
 		"accuracy":100,
 		"energyCost":26,
@@ -2173,15 +2403,17 @@
 	},
 	"thunderstorm": {
 		"name":"thunderstorm",
-		"type":"electric",
+		"types":["electric"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":25
 	},
 	"thunderstrike": {
 		"name":"thunderstrike",
-		"type":"electric",
+		"types":["electric"],
 		"category":"RANGED",
+		"style":"",
 		"power":90,
 		"accuracy":100,
 		"energyCost":50,
@@ -2194,40 +2426,45 @@
 	},
 	"zip-zap": {
 		"name":"zip-zap",
-		"type":"electric",
+		"types":["electric"],
 		"category":"RANGED",
+		"style":"",
 		"power":70,
 		"accuracy":100,
 		"energyCost":50
 	},
 	"air blade": {
 		"name":"air blade",
-		"type":"air",
+		"types":["air"],
 		"category":"RANGED",
+		"style":"",
 		"power":70,
 		"accuracy":100,
 		"energyCost":40
 	},
 	"air shot": {
 		"name":"air shot",
-		"type":"air",
+		"types":["air"],
 		"category":"RANGED",
+		"style":"",
 		"power":40,
 		"accuracy":100,
 		"energyCost":20
 	},
 	"air whip": {
 		"name":"air whip",
-		"type":"air",
+		"types":["air"],
 		"category":"RANGED",
+		"style":"",
 		"power":60,
 		"accuracy":100,
 		"energyCost":35
 	},
 	"cyclone slam": {
 		"name":"cyclone slam",
-		"type":"air",
+		"types":["air"],
 		"category":"MELEE",
+		"style":"",
 		"power":60,
 		"accuracy":101,
 		"energyCost":26,
@@ -2236,23 +2473,26 @@
 	},
 	"double beat": {
 		"name":"double beat",
-		"type":"air",
+		"types":["air"],
 		"category":"MELEE",
+		"style":"",
 		"power":40,
 		"accuracy":90,
 		"energyCost":40
 	},
 	"gale force": {
 		"name":"gale force",
-		"type":"air",
+		"types":["air"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":25
 	},
 	"gust": {
 		"name":"gust",
-		"type":"air",
+		"types":["air"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":100,
 		"energyCost":40,
 		"userEffects":{
@@ -2265,117 +2505,132 @@
 	},
 	"jet stream": {
 		"name":"jet stream",
-		"type":"air",
+		"types":["air"],
 		"category":"RANGED",
+		"style":"",
 		"power":90,
 		"accuracy":100,
 		"energyCost":50
 	},
 	"nosedive": {
 		"name":"nosedive",
-		"type":"air",
+		"types":["air"],
 		"category":"MELEE",
+		"style":"",
 		"power":95,
 		"accuracy":100,
 		"energyCost":40
 	},
 	"peck": {
 		"name":"peck",
-		"type":"air",
+		"types":["air"],
 		"category":"MELEE",
+		"style":"",
 		"power":35,
 		"accuracy":100,
 		"energyCost":15
 	},
 	"perch": {
 		"name":"perch",
-		"type":"air",
+		"types":["air"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":72
 	},
 	"ruffled feathers": {
 		"name":"ruffled feathers",
-		"type":"air",
+		"types":["air"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":0
 	},
 	"scavenge": {
 		"name":"scavenge",
-		"type":"air",
+		"types":["air"],
 		"category":"MELEE",
+		"style":"",
 		"power":60,
 		"accuracy":100,
 		"energyCost":32
 	},
 	"second wind": {
 		"name":"second wind",
-		"type":"air",
+		"types":["air"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":0
 	},
 	"tempest": {
 		"name":"tempest",
-		"type":"air",
+		"types":["air"],
 		"category":"RANGED",
+		"style":"",
 		"power":80,
 		"accuracy":100,
 		"energyCost":40
 	},
 	"typhoon": {
 		"name":"typhoon",
-		"type":"air",
+		"types":["air"],
 		"category":"RANGED",
+		"style":"",
 		"power":110,
 		"accuracy":80,
 		"energyCost":60
 	},
 	"wing slap": {
 		"name":"wing slap",
-		"type":"air",
+		"types":["air"],
 		"category":"MELEE",
+		"style":"",
 		"power":60,
 		"accuracy":100,
 		"energyCost":26
 	},
 	"bug bite": {
 		"name":"bug bite",
-		"type":"bug",
+		"types":["bug"],
 		"category":"MELEE",
+		"style":"",
 		"power":30,
 		"accuracy":100,
 		"energyCost":20
 	},
 	"clamp claw": {
 		"name":"clamp claw",
-		"type":"bug",
+		"types":["bug"],
 		"category":"MELEE",
+		"style":"",
 		"power":85,
 		"accuracy":100,
 		"energyCost":50
 	},
 	"counter poise": {
 		"name":"counter poise",
-		"type":"bug",
+		"types":["bug"],
 		"category":"MELEE",
+		"style":"",
 		"power":70,
 		"accuracy":100,
 		"energyCost":45
 	},
 	"discordance": {
 		"name":"discordance",
-		"type":"bug",
+		"types":["bug"],
 		"category":"RANGED",
+		"style":"",
 		"power":90,
 		"accuracy":100,
 		"energyCost":50
 	},
 	"double sting": {
 		"name":"double sting",
-		"type":"bug",
+		"types":["bug"],
 		"category":"MELEE",
+		"style":"",
 		"power":25,
 		"accuracy":100,
 		"energyCost":28,
@@ -2388,16 +2643,18 @@
 	},
 	"lunge": {
 		"name":"lunge",
-		"type":"bug",
+		"types":["bug"],
 		"category":"MELEE",
+		"style":"",
 		"power":90,
 		"accuracy":100,
 		"energyCost":50
 	},
 	"molt": {
 		"name":"molt",
-		"type":"bug",
+		"types":["bug"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":25,
 		"userEffects":{
@@ -2410,8 +2667,9 @@
 	},
 	"mystic breeze": {
 		"name":"mystic breeze",
-		"type":"bug",
+		"types":["bug"],
 		"category":"RANGED",
+		"style":"",
 		"power":60,
 		"accuracy":100,
 		"energyCost":30,
@@ -2425,40 +2683,45 @@
 	},
 	"parasitize": {
 		"name":"parasitize",
-		"type":"bug",
+		"types":["bug"],
 		"category":"MELEE",
+		"style":"",
 		"power":80,
 		"accuracy":100,
 		"energyCost":50
 	},
 	"pester": {
 		"name":"pester",
-		"type":"bug",
+		"types":["bug"],
 		"category":"RANGED",
+		"style":"",
 		"power":50,
 		"accuracy":100,
 		"energyCost":32
 	},
 	"pestilence": {
 		"name":"pestilence",
-		"type":"bug",
+		"types":["bug"],
 		"category":"RANGED",
+		"style":"",
 		"power":60,
 		"accuracy":100,
 		"energyCost":35
 	},
 	"pheroblast": {
 		"name":"pheroblast",
-		"type":"bug",
+		"types":["bug"],
 		"category":"RANGED",
+		"style":"",
 		"power":90,
 		"accuracy":100,
 		"energyCost":50
 	},
 	"twirly whirl": {
 		"name":"twirly whirl",
-		"type":"bug",
+		"types":["bug"],
 		"category":"RANGED",
+		"style":"",
 		"power":75,
 		"accuracy":100,
 		"energyCost":40,
@@ -2472,23 +2735,26 @@
 	},
 	"web shot": {
 		"name":"web shot",
-		"type":"bug",
+		"types":["bug"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":90,
 		"energyCost":10
 	},
 	"boulder blast": {
 		"name":"boulder blast",
-		"type":"earth",
+		"types":["earth"],
 		"category":"RANGED",
+		"style":"",
 		"power":25,
 		"accuracy":90,
 		"energyCost":25
 	},
 	"burrow": {
 		"name":"burrow",
-		"type":"earth",
+		"types":["earth"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":15,
 		"userEffects":{
@@ -2501,80 +2767,90 @@
 	},
 	"clay slap": {
 		"name":"clay slap",
-		"type":"earth",
+		"types":["earth"],
 		"category":"MELEE",
+		"style":"",
 		"power":60,
 		"accuracy":100,
 		"energyCost":35
 	},
 	"earthquake": {
 		"name":"earthquake",
-		"type":"earth",
+		"types":["earth"],
 		"category":"MELEE",
+		"style":"",
 		"power":90,
 		"accuracy":100,
 		"energyCost":50
 	},
 	"landslide": {
 		"name":"landslide",
-		"type":"earth",
+		"types":["earth"],
 		"category":"RANGED",
+		"style":"",
 		"power":90,
 		"accuracy":100,
 		"energyCost":50
 	},
 	"muck buck": {
 		"name":"muck buck",
-		"type":"earth",
+		"types":["earth"],
 		"category":"MELEE",
+		"style":"",
 		"power":95,
 		"accuracy":100,
 		"energyCost":40
 	},
 	"mud spatter": {
 		"name":"mud spatter",
-		"type":"earth",
+		"types":["earth"],
 		"category":"RANGED",
+		"style":"",
 		"power":55,
 		"accuracy":100,
 		"energyCost":30
 	},
 	"mudslide": {
 		"name":"mudslide",
-		"type":"earth",
+		"types":["earth"],
 		"category":"RANGED",
+		"style":"",
 		"power":50,
 		"accuracy":100,
 		"energyCost":35
 	},
 	"pebble toss": {
 		"name":"pebble toss",
-		"type":"earth",
+		"types":["earth"],
 		"category":"RANGED",
+		"style":"",
 		"power":30,
 		"accuracy":100,
 		"energyCost":15
 	},
 	"quicksand": {
 		"name":"quicksand",
-		"type":"earth",
+		"types":["earth"],
 		"category":"RANGED",
+		"style":"",
 		"power":60,
 		"accuracy":100,
 		"energyCost":35
 	},
 	"rock slide": {
 		"name":"rock slide",
-		"type":"earth",
+		"types":["earth"],
 		"category":"RANGED",
+		"style":"",
 		"power":60,
 		"accuracy":100,
 		"energyCost":40
 	},
 	"tamp": {
 		"name":"tamp",
-		"type":"earth",
+		"types":["earth"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":25,
 		"userEffects":{
@@ -2587,24 +2863,27 @@
 	},
 	"undermine": {
 		"name":"undermine",
-		"type":"earth",
+		"types":["earth"],
 		"category":"MELEE",
+		"style":"",
 		"power":70,
 		"accuracy":100,
 		"energyCost":35
 	},
 	"yeti's wrath": {
 		"name":"yeti's wrath",
-		"type":"earth",
+		"types":["earth"],
 		"category":"MELEE",
+		"style":"",
 		"power":120,
 		"accuracy":100,
 		"energyCost":90
 	},
 	"baneful bash": {
 		"name":"baneful bash",
-		"type":"toxic",
+		"types":["toxic"],
 		"category":"MELEE",
+		"style":"",
 		"power":85,
 		"accuracy":100,
 		"energyCost":45,
@@ -2617,39 +2896,44 @@
 	},
 	"barb trap": {
 		"name":"barb trap",
-		"type":"toxic",
+		"types":["toxic"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":0
 	},
 	"bone crunch": {
 		"name":"bone crunch",
-		"type":"toxic",
+		"types":["toxic"],
 		"category":"MELEE",
+		"style":"",
 		"power":80,
 		"accuracy":100,
 		"energyCost":46
 	},
 	"canister burst": {
 		"name":"canister burst",
-		"type":"toxic",
+		"types":["toxic"],
 		"category":"RANGED",
+		"style":"",
 		"power":25,
 		"accuracy":95,
 		"energyCost":35
 	},
 	"corrode": {
 		"name":"corrode",
-		"type":"toxic",
+		"types":["toxic"],
 		"category":"RANGED",
+		"style":"",
 		"power":40,
 		"accuracy":100,
 		"energyCost":24
 	},
 	"gobble goop": {
 		"name":"gobble goop",
-		"type":"toxic",
+		"types":["toxic"],
 		"category":"RANGED",
+		"style":"",
 		"power":60,
 		"accuracy":100,
 		"energyCost":40,
@@ -2662,8 +2946,9 @@
 	},
 	"graffiti": {
 		"name":"graffiti",
-		"type":"toxic",
+		"types":["toxic"],
 		"category":"RANGED",
+		"style":"",
 		"power":70,
 		"accuracy":90,
 		"energyCost":50,
@@ -2676,8 +2961,9 @@
 	},
 	"muck blast": {
 		"name":"muck blast",
-		"type":"toxic",
+		"types":["toxic"],
 		"category":"RANGED",
+		"style":"",
 		"power":90,
 		"accuracy":100,
 		"energyCost":50,
@@ -2690,15 +2976,17 @@
 	},
 	"oil leak": {
 		"name":"oil leak",
-		"type":"toxic",
+		"types":["toxic"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":10
 	},
 	"paint shower": {
 		"name":"paint shower",
-		"type":"toxic",
+		"types":["toxic"],
 		"category":"RANGED",
+		"style":"",
 		"power":110,
 		"accuracy":100,
 		"energyCost":50,
@@ -2712,8 +3000,9 @@
 	},
 	"poison": {
 		"name":"poison",
-		"type":"toxic",
+		"types":["toxic"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":90,
 		"energyCost":25,
 		"enemyEffects":{
@@ -2725,15 +3014,17 @@
 	},
 	"poison barbs": {
 		"name":"poison barbs",
-		"type":"toxic",
+		"types":["toxic"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":25
 	},
 	"slime": {
 		"name":"slime",
-		"type":"toxic",
+		"types":["toxic"],
 		"category":"RANGED",
+		"style":"",
 		"power":65,
 		"accuracy":100,
 		"energyCost":28,
@@ -2746,8 +3037,9 @@
 	},
 	"sting": {
 		"name":"sting",
-		"type":"toxic",
+		"types":["toxic"],
 		"category":"MELEE",
+		"style":"",
 		"power":15,
 		"accuracy":100,
 		"energyCost":10,
@@ -2760,8 +3052,9 @@
 	},
 	"toxiblast": {
 		"name":"toxiblast",
-		"type":"toxic",
+		"types":["toxic"],
 		"category":"RANGED",
+		"style":"",
 		"power":75,
 		"accuracy":100,
 		"energyCost":36,
@@ -2774,8 +3067,9 @@
 	},
 	"toxic spores": {
 		"name":"toxic spores",
-		"type":"toxic",
+		"types":["toxic"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":90,
 		"energyCost":25,
 		"enemyEffects":{
@@ -2787,8 +3081,9 @@
 	},
 	"toxic tail": {
 		"name":"toxic tail",
-		"type":"toxic",
+		"types":["toxic"],
 		"category":"MELEE",
+		"style":"",
 		"power":50,
 		"accuracy":100,
 		"energyCost":30,
@@ -2801,8 +3096,9 @@
 	},
 	"venom chomp": {
 		"name":"venom chomp",
-		"type":"toxic",
+		"types":["toxic"],
 		"category":"MELEE",
+		"style":"",
 		"power":70,
 		"accuracy":100,
 		"energyCost":35,
@@ -2815,8 +3111,9 @@
 	},
 	"venom slash": {
 		"name":"venom slash",
-		"type":"toxic",
+		"types":["toxic"],
 		"category":"MELEE",
+		"style":"",
 		"power":70,
 		"accuracy":100,
 		"energyCost":45,
@@ -2829,8 +3126,9 @@
 	},
 	"airstrike": {
 		"name":"airstrike",
-		"type":"metal",
+		"types":["metal"],
 		"category":"RANGED",
+		"style":"",
 		"power":125,
 		"accuracy":101,
 		"energyCost":0,
@@ -2839,8 +3137,9 @@
 	},
 	"armor down": {
 		"name":"armor down",
-		"type":"metal",
+		"types":["metal"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":25,
 		"userEffects":{
@@ -2853,125 +3152,141 @@
 	},
 	"barbs": {
 		"name":"barbs",
-		"type":"metal",
+		"types":["metal"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":20
 	},
 	"bash": {
 		"name":"bash",
-		"type":"metal",
+		"types":["metal"],
 		"category":"MELEE",
+		"style":"",
 		"power":50,
 		"accuracy":100,
 		"energyCost":20
 	},
 	"clamp": {
 		"name":"clamp",
-		"type":"metal",
+		"types":["metal"],
 		"category":"MELEE",
+		"style":"",
 		"power":45,
 		"accuracy":100,
 		"energyCost":22
 	},
 	"clean up": {
 		"name":"clean up",
-		"type":"metal",
+		"types":["metal"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":50
 	},
 	"complete demolition": {
 		"name":"complete demolition",
-		"type":"metal",
+		"types":["metal"],
 		"category":"MELEE",
+		"style":"",
 		"power":150,
 		"accuracy":100,
 		"energyCost":50
 	},
 	"cosmic chime": {
 		"name":"cosmic chime",
-		"type":"metal",
+		"types":["metal"],
 		"category":"RANGED",
+		"style":"",
 		"power":100,
 		"accuracy":100,
 		"energyCost":58
 	},
 	"dart burst": {
 		"name":"dart burst",
-		"type":"metal",
+		"types":["metal"],
 		"category":"RANGED",
+		"style":"",
 		"power":15,
 		"accuracy":85,
 		"energyCost":40
 	},
 	"double whack": {
 		"name":"double whack",
-		"type":"metal",
+		"types":["metal"],
 		"category":"MELEE",
+		"style":"",
 		"power":35,
 		"accuracy":90,
 		"energyCost":34
 	},
 	"heavy bash": {
 		"name":"heavy bash",
-		"type":"metal",
+		"types":["metal"],
 		"category":"MELEE",
+		"style":"",
 		"power":70,
 		"accuracy":100,
 		"energyCost":36
 	},
 	"holy slash": {
 		"name":"holy slash",
-		"type":"metal",
+		"types":["metal"],
 		"category":"RANGED",
+		"style":"",
 		"power":75,
 		"accuracy":100,
 		"energyCost":35
 	},
 	"metal blast": {
 		"name":"metal blast",
-		"type":"metal",
+		"types":["metal"],
 		"category":"RANGED",
+		"style":"",
 		"power":85,
 		"accuracy":100,
 		"energyCost":42
 	},
 	"metal shriek": {
 		"name":"metal shriek",
-		"type":"metal",
+		"types":["metal"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":25
 	},
 	"metal swipes": {
 		"name":"metal swipes",
-		"type":"metal",
+		"types":["metal"],
 		"category":"MELEE",
+		"style":"",
 		"power":20,
 		"accuracy":95,
 		"energyCost":20
 	},
 	"razor slash": {
 		"name":"razor slash",
-		"type":"metal",
+		"types":["metal"],
 		"category":"MELEE",
+		"style":"",
 		"power":90,
 		"accuracy":100,
 		"energyCost":50
 	},
 	"reflection burst": {
 		"name":"reflection burst",
-		"type":"metal",
+		"types":["metal"],
 		"category":"RANGED",
+		"style":"",
 		"power":70,
 		"accuracy":100,
 		"energyCost":40
 	},
 	"searing steel": {
 		"name":"searing steel",
-		"type":"metal",
+		"types":["metal"],
 		"category":"MELEE",
+		"style":"",
 		"power":85,
 		"accuracy":100,
 		"energyCost":48,
@@ -2984,8 +3299,9 @@
 	},
 	"steel crusher": {
 		"name":"steel crusher",
-		"type":"metal",
+		"types":["metal"],
 		"category":"MELEE",
+		"style":"",
 		"power":90,
 		"accuracy":90,
 		"energyCost":50,
@@ -2999,16 +3315,18 @@
 	},
 	"steel trap": {
 		"name":"steel trap",
-		"type":"metal",
+		"types":["metal"],
 		"category":"MELEE",
+		"style":"",
 		"power":60,
 		"accuracy":100,
 		"energyCost":35
 	},
 	"tune-up": {
 		"name":"tune-up",
-		"type":"metal",
+		"types":["metal"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":15,
 		"userEffects":{
@@ -3021,37 +3339,42 @@
 	},
 	"vice jaws": {
 		"name":"vice jaws",
-		"type":"metal",
+		"types":["metal"],
 		"category":"MELEE",
+		"style":"",
 		"power":80,
 		"accuracy":100,
 		"energyCost":40
 	},
 	"ancient roar": {
 		"name":"ancient roar",
-		"type":"ancient",
+		"types":["ancient"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":100,
 		"energyCost":50
 	},
 	"augment": {
 		"name":"augment",
-		"type":"ancient",
+		"types":["ancient"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":25
 	},
 	"bane of haste": {
 		"name":"bane of haste",
-		"type":"ancient",
+		"types":["ancient"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":50
 	},
 	"beast's slumber": {
 		"name":"beast's slumber",
-		"type":"ancient",
+		"types":["ancient"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":65,
 		"userEffects":{
@@ -3068,24 +3391,27 @@
 	},
 	"confound": {
 		"name":"confound",
-		"type":"ancient",
+		"types":["ancient"],
 		"category":"RANGED",
+		"style":"",
 		"power":40,
 		"accuracy":100,
 		"energyCost":18
 	},
 	"dino claws": {
 		"name":"dino claws",
-		"type":"ancient",
+		"types":["ancient"],
 		"category":"MELEE",
+		"style":"",
 		"power":45,
 		"accuracy":100,
 		"energyCost":24
 	},
 	"draco beam": {
 		"name":"draco beam",
-		"type":"ancient",
+		"types":["ancient"],
 		"category":"RANGED",
+		"style":"",
 		"power":130,
 		"accuracy":90,
 		"energyCost":60,
@@ -3099,8 +3425,9 @@
 	},
 	"elemental burst": {
 		"name":"elemental burst",
-		"type":"ancient",
+		"types":["ancient"],
 		"category":"RANGED",
+		"style":"",
 		"power":80,
 		"accuracy":100,
 		"energyCost":50,
@@ -3113,23 +3440,26 @@
 	},
 	"energy break": {
 		"name":"energy break",
-		"type":"ancient",
+		"types":["ancient"],
 		"category":"RANGED",
+		"style":"",
 		"power":85,
 		"accuracy":54,
 		"energyCost":54
 	},
 	"far enchantment": {
 		"name":"far enchantment",
-		"type":"ancient",
+		"types":["ancient"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":40
 	},
 	"goop spout": {
 		"name":"goop spout",
-		"type":"ancient",
+		"types":["ancient"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":90,
 		"energyCost":35,
 		"enemyEffects":{
@@ -3141,55 +3471,62 @@
 	},
 	"meteor crash": {
 		"name":"meteor crash",
-		"type":"ancient",
+		"types":["ancient"],
 		"category":"RANGED",
+		"style":"",
 		"power":90,
 		"accuracy":100,
 		"energyCost":50
 	},
 	"meteor smash": {
 		"name":"meteor smash",
-		"type":"ancient",
+		"types":["ancient"],
 		"category":"MELEE",
+		"style":"",
 		"power":90,
 		"accuracy":100,
 		"energyCost":50
 	},
 	"near enchantment": {
 		"name":"near enchantment",
-		"type":"ancient",
+		"types":["ancient"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":40
 	},
 	"outburst": {
 		"name":"outburst",
-		"type":"ancient",
+		"types":["ancient"],
 		"category":"MELEE",
+		"style":"",
 		"power":125,
 		"accuracy":100,
 		"energyCost":60
 	},
 	"primal slash": {
 		"name":"primal slash",
-		"type":"ancient",
+		"types":["ancient"],
 		"category":"MELEE",
+		"style":"",
 		"power":80,
 		"accuracy":100,
 		"energyCost":45
 	},
 	"savage greed": {
 		"name":"savage greed",
-		"type":"ancient",
+		"types":["ancient"],
 		"category":"MELEE",
+		"style":"",
 		"power":95,
 		"accuracy":90,
 		"energyCost":52
 	},
 	"shrewd blast": {
 		"name":"shrewd blast",
-		"type":"ancient",
+		"types":["ancient"],
 		"category":"RANGED",
+		"style":"",
 		"power":70,
 		"accuracy":101,
 		"energyCost":42,
@@ -3198,8 +3535,9 @@
 	},
 	"apparition": {
 		"name":"apparition",
-		"type":"spirit",
+		"types":["spirit"],
 		"category":"RANGED",
+		"style":"",
 		"power":90,
 		"accuracy":101,
 		"energyCost":55,
@@ -3208,38 +3546,43 @@
 	},
 	"emulate": {
 		"name":"emulate",
-		"type":"spirit",
+		"types":["spirit"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":25
 	},
 	"fade away": {
 		"name":"fade away",
-		"type":"spirit",
+		"types":["spirit"],
 		"category":"MELEE",
+		"style":"",
 		"power":70,
 		"accuracy":100,
 		"energyCost":50
 	},
 	"final ruse": {
 		"name":"final ruse",
-		"type":"spirit",
+		"types":["spirit"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":40
 	},
 	"frightful surprise": {
 		"name":"frightful surprise",
-		"type":"spirit",
+		"types":["spirit"],
 		"category":"MELEE",
+		"style":"",
 		"power":100,
 		"accuracy":100,
 		"energyCost":0
 	},
 	"ghostly howl": {
 		"name":"ghostly howl",
-		"type":"spirit",
+		"types":["spirit"],
 		"category":"RANGED",
+		"style":"",
 		"power":75,
 		"accuracy":101,
 		"energyCost":38,
@@ -3248,8 +3591,9 @@
 	},
 	"harrow": {
 		"name":"harrow",
-		"type":"spirit",
+		"types":["spirit"],
 		"category":"MELEE",
+		"style":"",
 		"power":90,
 		"accuracy":100,
 		"energyCost":50,
@@ -3262,22 +3606,25 @@
 	},
 	"hazy shroud": {
 		"name":"hazy shroud",
-		"type":"spirit",
+		"types":["spirit"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":25
 	},
 	"impersonate": {
 		"name":"impersonate",
-		"type":"spirit",
+		"types":["spirit"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":45
 	},
 	"oppress": {
 		"name":"oppress",
-		"type":"spirit",
+		"types":["spirit"],
 		"category":"RANGED",
+		"style":"",
 		"power":60,
 		"accuracy":100,
 		"energyCost":45,
@@ -3290,86 +3637,97 @@
 	},
 	"phantom blast": {
 		"name":"phantom blast",
-		"type":"spirit",
+		"types":["spirit"],
 		"category":"RANGED",
+		"style":"",
 		"power":110,
 		"accuracy":80,
 		"energyCost":60
 	},
 	"phantom slash": {
 		"name":"phantom slash",
-		"type":"spirit",
+		"types":["spirit"],
 		"category":"MELEE",
+		"style":"",
 		"power":70,
 		"accuracy":100,
 		"energyCost":36
 	},
 	"revival": {
 		"name":"revival",
-		"type":"spirit",
+		"types":["spirit"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":72
 	},
 	"shadow sprint": {
 		"name":"shadow sprint",
-		"type":"spirit",
+		"types":["spirit"],
 		"category":"MELEE",
+		"style":"",
 		"power":40,
 		"accuracy":100,
 		"energyCost":25
 	},
 	"shatter": {
 		"name":"shatter",
-		"type":"spirit",
+		"types":["spirit"],
 		"category":"MELEE",
+		"style":"",
 		"power":70,
 		"accuracy":90,
 		"energyCost":50
 	},
 	"soul harvest": {
 		"name":"soul harvest",
-		"type":"spirit",
+		"types":["spirit"],
 		"category":"MELEE",
+		"style":"",
 		"power":60,
 		"accuracy":100,
 		"energyCost":30
 	},
 	"soul storm": {
 		"name":"soul storm",
-		"type":"spirit",
+		"types":["spirit"],
 		"category":"MELEE",
+		"style":"",
 		"power":80,
 		"accuracy":100,
 		"energyCost":40
 	},
 	"spectral burst": {
 		"name":"spectral burst",
-		"type":"spirit",
+		"types":["spirit"],
 		"category":"RANGED",
+		"style":"",
 		"power":80,
 		"accuracy":100,
 		"energyCost":40
 	},
 	"spite": {
 		"name":"spite",
-		"type":"spirit",
+		"types":["spirit"],
 		"category":"RANGED",
+		"style":"",
 		"accuracy":90,
 		"energyCost":40
 	},
 	"startle": {
 		"name":"startle",
-		"type":"spirit",
+		"types":["spirit"],
 		"category":"MELEE",
+		"style":"",
 		"power":30,
 		"accuracy":100,
 		"energyCost":15
 	},
 	"stupefy": {
 		"name":"stupefy",
-		"type":"spirit",
+		"types":["spirit"],
 		"category":"RANGED",
+		"style":"",
 		"power":30,
 		"accuracy":100,
 		"energyCost":25,
@@ -3382,16 +3740,18 @@
 	},
 	"trick shot": {
 		"name":"trick shot",
-		"type":"spirit",
+		"types":["spirit"],
 		"category":"RANGED",
+		"style":"",
 		"power":70,
 		"accuracy":100,
 		"energyCost":45
 	},
 	"banana slam": {
 		"name":"banana slam",
-		"type":"brawler",
+		"types":["brawler"],
 		"category":"MELEE",
+		"style":"",
 		"power":95,
 		"accuracy":101,
 		"energyCost":55,
@@ -3400,173 +3760,195 @@
 	},
 	"bludgeon": {
 		"name":"bludgeon",
-		"type":"brawler",
+		"types":["brawler"],
 		"category":"MELEE",
+		"style":"",
 		"power":65,
 		"accuracy":100,
 		"energyCost":36
 	},
 	"body crash": {
 		"name":"body crash",
-		"type":"brawler",
+		"types":["brawler"],
 		"category":"MELEE",
+		"style":"",
 		"power":80,
 		"accuracy":100,
 		"energyCost":40
 	},
 	"boom bash": {
 		"name":"boom bash",
-		"type":"brawler",
+		"types":["brawler"],
 		"category":"RANGED",
+		"style":"",
 		"power":80,
 		"accuracy":100,
 		"energyCost":45
 	},
 	"brawn boost": {
 		"name":"brawn boost",
-		"type":"brawler",
+		"types":["brawler"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":25
 	},
 	"buck up": {
 		"name":"buck up",
-		"type":"brawler",
+		"types":["brawler"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":20
 	},
 	"bulk up": {
 		"name":"bulk up",
-		"type":"brawler",
+		"types":["brawler"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":25
 	},
 	"chop": {
 		"name":"chop",
-		"type":"brawler",
+		"types":["brawler"],
 		"category":"MELEE",
+		"style":"",
 		"power":60,
 		"accuracy":90,
 		"energyCost":30
 	},
 	"clawber": {
 		"name":"clawber",
-		"type":"brawler",
+		"types":["brawler"],
 		"category":"MELEE",
+		"style":"",
 		"power":100,
 		"accuracy":100,
 		"energyCost":55
 	},
 	"counter stance": {
 		"name":"counter stance",
-		"type":"brawler",
+		"types":["brawler"],
 		"category":"MELEE",
+		"style":"",
 		"power":70,
 		"accuracy":100,
 		"energyCost":45
 	},
 	"driving force": {
 		"name":"driving force",
-		"type":"brawler",
+		"types":["brawler"],
 		"category":"MELEE",
+		"style":"",
 		"power":60,
 		"accuracy":100,
 		"energyCost":40
 	},
 	"heart break": {
 		"name":"heart break",
-		"type":"brawler",
+		"types":["brawler"],
 		"category":"MELEE",
+		"style":"",
 		"power":50,
 		"accuracy":100,
 		"energyCost":25
 	},
 	"hop kick": {
 		"name":"hop kick",
-		"type":"brawler",
+		"types":["brawler"],
 		"category":"MELEE",
+		"style":"",
 		"power":60,
 		"accuracy":90,
 		"energyCost":30
 	},
 	"horn-dashi": {
 		"name":"horn-dashi",
-		"type":"brawler",
+		"types":["brawler"],
 		"category":"MELEE",
+		"style":"",
 		"power":70,
 		"accuracy":100,
 		"energyCost":40
 	},
 	"junglejutsu": {
 		"name":"junglejutsu",
-		"type":"brawler",
+		"types":["brawler"],
 		"category":"MELEE",
+		"style":"",
 		"power":90,
 		"accuracy":100,
 		"energyCost":50
 	},
 	"mega kick": {
 		"name":"mega kick",
-		"type":"brawler",
+		"types":["brawler"],
 		"category":"MELEE",
+		"style":"",
 		"power":90,
 		"accuracy":90,
 		"energyCost":45
 	},
 	"mega punch": {
 		"name":"mega punch",
-		"type":"brawler",
+		"types":["brawler"],
 		"category":"MELEE",
+		"style":"",
 		"power":80,
 		"accuracy":100,
 		"energyCost":40
 	},
 	"pep jab": {
 		"name":"pep jab",
-		"type":"brawler",
+		"types":["brawler"],
 		"category":"MELEE",
+		"style":"",
 		"power":80,
 		"accuracy":100,
 		"energyCost":50
 	},
 	"preemptive strike": {
 		"name":"preemptive strike",
-		"type":"brawler",
+		"types":["brawler"],
 		"category":"MELEE",
+		"style":"",
 		"power":20,
 		"accuracy":100,
 		"energyCost":25
 	},
 	"punch": {
 		"name":"punch",
-		"type":"brawler",
+		"types":["brawler"],
 		"category":"MELEE",
+		"style":"",
 		"power":45,
 		"accuracy":100,
 		"energyCost":20
 	},
 	"quick punch": {
 		"name":"quick punch",
-		"type":"brawler",
+		"types":["brawler"],
 		"category":"MELEE",
+		"style":"",
 		"power":40,
 		"accuracy":100,
 		"energyCost":25
 	},
 	"rogue assault": {
 		"name":"rogue assault",
-		"type":"brawler",
+		"types":["brawler"],
 		"category":"MELEE",
+		"style":"",
 		"power":120,
 		"accuracy":100,
 		"energyCost":60
 	},
 	"rough up": {
 		"name":"rough up",
-		"type":"brawler",
+		"types":["brawler"],
 		"category":"MELEE",
+		"style":"",
 		"power":70,
 		"accuracy":100,
 		"energyCost":40
@@ -3574,16 +3956,18 @@
 	},
 	"shadowbox": {
 		"name":"shadowbox",
-		"type":"brawler",
+		"types":["brawler"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":25
 	
 	},
 	"swat": {
 		"name":"swat",
-		"type":"brawler",
+		"types":["brawler"],
 		"category":"MELEE",
+		"style":"",
 		"power":45,
 		"accuracy":100,
 		"energyCost":32
@@ -3591,8 +3975,9 @@
 	},
 	"vital jab": {
 		"name":"vital jab",
-		"type":"brawler",
+		"types":["brawler"],
 		"category":"MELEE",
+		"style":"",
 		"power":80,
 		"accuracy":100,
 		"energyCost":50
@@ -3600,16 +3985,18 @@
 	},
 	"brain exercise": {
 		"name":"brain exercise",
-		"type":"mind",
+		"types":["mind"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":25
 	
 	},
 	"brainwash": {
 		"name":"brainwash",
-		"type":"mind",
+		"types":["mind"],
 		"category":"RANGED",
+		"style":"",
 		"power":50,
 		"accuracy":100,
 		"energyCost":24
@@ -3617,8 +4004,9 @@
 	},
 	"cerebral slash": {
 		"name":"cerebral slash",
-		"type":"mind",
+		"types":["mind"],
 		"category":"MELEE",
+		"style":"",
 		"power":70,
 		"accuracy":100,
 		"energyCost":36
@@ -3626,8 +4014,9 @@
 	},
 	"deja vu": {
 		"name":"deja vu",
-		"type":"mind",
+		"types":["mind"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":30,
 		"bypassesDodge":true,
@@ -3635,23 +4024,26 @@
 	},
 	"dissipate": {
 		"name":"dissipate",
-		"type":"mind",
+		"types":["mind"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":45
 	},
 	"empathize": {
 		"name":"empathize",
-		"type":"mind",
+		"types":["mind"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":40
 	
 	},
 	"flabbergast": {
 		"name":"flabbergast",
-		"type":"mind",
+		"types":["mind"],
 		"category":"RANGED",
+		"style":"",
 		"power":70,
 		"accuracy":100,
 		"energyCost":36
@@ -3659,8 +4051,9 @@
 	},
 	"foul chant": {
 		"name":"foul chant",
-		"type":"mind",
+		"types":["mind"],
 		"category":"RANGED",
+		"style":"",
 		"power":110,
 		"accuracy":70,
 		"energyCost":45,
@@ -3674,24 +4067,27 @@
 	},
 	"health gift": {
 		"name":"health gift",
-		"type":"mind",
+		"types":["mind"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":40
 	
 	},
 	"hypnotize": {
 		"name":"hypnotize",
-		"type":"mind",
+		"types":["mind"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":90,
 		"energyCost":40
 	
 	},
 	"judgement": {
 		"name":"judgement",
-		"type":"mind",
+		"types":["mind"],
 		"category":"MELEE",
+		"style":"",
 		"power":85,
 		"accuracy":100,
 		"energyCost":45
@@ -3699,93 +4095,105 @@
 	},
 	"memorize": {
 		"name":"memorize",
-		"type":"mind",
+		"types":["mind"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":25
 	
 	},
 	"mind drain": {
 		"name":"mind drain",
-		"type":"mind",
+		"types":["mind"],
 		"category":"RANGED",
+		"style":"",
 		"power":75,
 		"accuracy":100,
 		"energyCost":48
 	},
 	"mind's eye": {
 		"name":"mind's eye",
-		"type":"mind",
+		"types":["mind"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":15
 	},
 	"peace of mind": {
 		"name":"peace of mind",
-		"type":"mind",
+		"types":["mind"],
 		"category":"SUPPORT",
+		"style":"",
 		"accuracy":101,
 		"energyCost":25
 	},
 	"psychal chomp": {
 		"name":"psychal chomp",
-		"type":"mind",
+		"types":["mind"],
 		"category":"MELEE",
+		"style":"",
 		"power":80,
 		"accuracy":100,
 		"energyCost":40
 	},
 	"psychal slap": {
 		"name":"psychal slap",
-		"type":"mind",
+		"types":["mind"],
 		"category":"MELEE",
+		"style":"",
 		"power":85,
 		"accuracy":100,
 		"energyCost":45
 	},
 	"psycho blast": {
 		"name":"psycho blast",
-		"type":"mind",
+		"types":["mind"],
 		"category":"RANGED",
+		"style":"",
 		"power":90,
 		"accuracy":100,
 		"energyCost":50
 	},
 	"return to sender": {
 		"name":"return to sender",
-		"type":"mind",
+		"types":["mind"],
 		"category":"RANGED",
+		"style":"",
 		"accuracy":101,
 		"energyCost":25
 	},
 	"splitting headache": {
 		"name":"splitting headache",
-		"type":"mind",
+		"types":["mind"],
 		"category":"RANGED",
+		"style":"",
 		"power":70,
 		"accuracy":100,
 		"energyCost":40
 	},
 	"stratagem": {
 		"name":"stratagem",
-		"type":"mind",
+		"types":["mind"],
 		"category":"RANGED",
+		"style":"",
 		"power":80,
 		"accuracy":100,
 		"energyCost":40
 	},
 	"telekinetic sweep": {
 		"name":"telekinetic sweep",
-		"type":"mind",
+		"types":["mind"],
 		"category":"MELEE",
+		"style":"",
 		"power":90,
 		"accuracy":90,
 		"energyCost":45
 	},
 	"adaptive assault simple": {
 		"name":"adaptive assault simple",
-		"type":"simple",
+		"types":["simple"],
 		"category":"various",
+		"style":"",
 		"power":75,
 		"accuracy":100,
 		"energyCost":35,
@@ -3793,8 +4201,9 @@
 	},
 	"adaptive assault spirit": {
 		"name":"adaptive assault spirit",
-		"type":"spirit",
+		"types":["spirit"],
 		"category":"various",
+		"style":"",
 		"power":75,
 		"accuracy":100,
 		"energyCost":35
@@ -3802,8 +4211,9 @@
 	},
 	"adaptive assault ancient": {
 		"name":"adaptive assault ancient",
-		"type":"ancient",
+		"types":["ancient"],
 		"category":"various",
+		"style":"",
 		"power":75,
 		"accuracy":100,
 		"energyCost":35
@@ -3811,8 +4221,9 @@
 	},
 	"adaptive assault air": {
 		"name":"adaptive assault air",
-		"type":"air",
+		"types":["air"],
 		"category":"various",
+		"style":"",
 		"power":75,
 		"accuracy":100,
 		"energyCost":35
@@ -3820,8 +4231,9 @@
 	},
 	"adaptive assault toxic": {
 		"name":"adaptive assault toxic",
-		"type":"toxic",
+		"types":["toxic"],
 		"category":"various",
+		"style":"",
 		"power":75,
 		"accuracy":100,
 		"energyCost":35,
@@ -3834,24 +4246,27 @@
 	},
 	"adaptive assault brawler": {
 		"name":"adaptive assault brawler",
-		"type":"brawler",
+		"types":["brawler"],
 		"category":"various",
+		"style":"",
 		"power":75,
 		"accuracy":100,
 		"energyCost":35
 	},
 	"adaptive assault bug": {
 		"name":"adaptive assault bug",
-		"type":"bug",
+		"types":["bug"],
 		"category":"various",
+		"style":"",
 		"power":75,
 		"accuracy":100,
 		"energyCost":35
 	},
 	"adaptive assault ice": {
 		"name":"adaptive assault ice",
-		"type":"ice",
+		"types":["ice"],
 		"category":"various",
+		"style":"",
 		"power":75,
 		"accuracy":100,
 		"energyCost":35,
@@ -3864,8 +4279,9 @@
 	},
 	"adaptive assault fire": {
 		"name":"adaptive assault fire",
-		"type":"fire",
+		"types":["fire"],
 		"category":"various",
+		"style":"",
 		"power":75,
 		"accuracy":100,
 		"energyCost":35,
@@ -3878,32 +4294,36 @@
 	},
 	"adaptive assault water": {
 		"name":"adaptive assault water",
-		"type":"water",
+		"types":["water"],
 		"category":"various",
+		"style":"",
 		"power":75,
 		"accuracy":100,
 		"energyCost":35
 	},
 	"expert onslaught air": {
 		"name":"expert onslaught air",
-		"type":"air",
+		"types":["air"],
 		"category":"various",
+		"style":"",
 		"power":75,
 		"accuracy":100,
 		"energyCost":40
 	},
 	"expert onslaught earth": {
 		"name":"expert onslaught earth",
-		"type":"earth",
+		"types":["earth"],
 		"category":"various",
+		"style":"",
 		"power":75,
 		"accuracy":100,
 		"energyCost":40
 	},
 	"expert onslaught water": {
 		"name":"expert onslaught water",
-		"type":"water",
+		"types":["water"],
 		"category":"various",
+		"style":"",
 		"power":75,
 		"accuracy":100,
 		"energyCost":40

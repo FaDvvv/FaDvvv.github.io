@@ -1,17 +1,10 @@
-package com.main.Managers;
+package com.main;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
-import com.main.Ability;
-import com.main.Item;
-import com.main.JsonFileReader;
-import com.main.MinorStatus;
-import com.main.Set;
-import com.main.SideFieldEffect;
-import com.main.Species;
-import com.main.Status;
-import com.main.WholeFieldEffect;
 import com.main.Move.Move;
 
 public class Manager {
@@ -27,6 +20,7 @@ public class Manager {
     private static Map<String, SideFieldEffect> sideFieldEffectMap = new HashMap<>(); 
 
     private static Map<String, Map<String, Set>> setMap = new HashMap<>();
+    private static Map<String, List<String>> personalitiesMap = new HashMap<>();
 
 
     static {
@@ -39,7 +33,10 @@ public class Manager {
         wholeFieldEffectMap  = JsonFileReader.readMap("wholeFieldEffects.json", WholeFieldEffect.class);
         sideFieldEffectMap   = JsonFileReader.readMap("sideFieldEffects.json", SideFieldEffect.class);
 
+        personalitiesMap     = JsonFileReader.readNestedList("personalities.json", String.class);
+
         setMap               = JsonFileReader.readNestedMap("sets.json", Set.class);
+        
     }
 
 
@@ -47,7 +44,7 @@ public class Manager {
 
 
     public static void error(String map, String key) {
-        System.err.println("Attempted to access \"" + key + "\" from " + map + "Map");
+        throw new RuntimeException("Attempted to access \"" + key + "\" from " + map + "Map");
     }
     public static Species getSpecies(String key) {
         if (speciesMap.get(key) == null) error("species", key);
@@ -61,7 +58,7 @@ public class Manager {
         if (itemMap.get(key) == null) error("items", key);
         return Item.copy(itemMap.get(key));
     }
-    public static Ability getAbiltiy(String key) {
+    public static Ability getAbility(String key) {
         if (abilityMap.get(key) == null) error("abilities", key);
         return Ability.copy(abilityMap.get(key));
     }
@@ -82,9 +79,14 @@ public class Manager {
         return SideFieldEffect.copy(sideFieldEffectMap.get(key));
     }
 
+    public static List<String> getPersonalities(String key) {
+        if (personalitiesMap.get(key) == null) throw new RuntimeException("attempted to get list of personalities of type \"" + key + "\"");
+        return new ArrayList<>(personalitiesMap.get(key));
+    }
+
     public static Set getSet(String speciesKey, String setKey) {
-        if (setMap.get(speciesKey) == null) System.err.println("Species \"" + speciesKey + "\" does not exist in setMap");
-        if (setMap.get(speciesKey).get(setKey) == null) System.err.println("Set \"" + setKey + "\" does not exist in species \"" + speciesKey + "\" in setMap");
+        if (setMap.get(speciesKey) == null) throw new RuntimeException("Species \"" + speciesKey + "\" does not exist in setMap");
+        if (setMap.get(speciesKey).get(setKey) == null) throw new RuntimeException("Set \"" + setKey + "\" does not exist in species \"" + speciesKey + "\" in setMap");
         return Set.copy(setMap.get(speciesKey).get(setKey));
     }
 }

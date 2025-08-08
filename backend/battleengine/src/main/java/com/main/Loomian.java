@@ -16,6 +16,7 @@ public class Loomian extends Species {
     
     private Action action;
 
+    private List<Ability> abilities = new ArrayList<>(); // list of possible current abilities
     private Ability ability;
     private Item item;
     private Personality personality;
@@ -36,7 +37,11 @@ public class Loomian extends Species {
 
     }
     public Loomian(Set set) {
-        
+        super(Manager.getSpecies(set.getSpeciesString()));
+        this.abilities = new ArrayList<>(List.of(Manager.getAbility(set.getAbilityString())));
+        this.item = Manager.getItem(set.getItemString());
+        this.personality = new Personality(set.getPersonalityStrings());
+        for (String moveString : set.getMoveStrings()) this.moves.add(Manager.getMove(moveString));
     }
     public Loomian(Loomian other) {
         super(other);
@@ -47,6 +52,7 @@ public class Loomian extends Species {
 
         this.action = Action.copy(other.action);
 
+        for (Ability ability : other.abilities) this.abilities.add(Ability.copy(ability));
         this.ability = Ability.copy(other.ability);
         this.item = Item.copy(other.item);
         this.personality = Personality.copy(other.personality);

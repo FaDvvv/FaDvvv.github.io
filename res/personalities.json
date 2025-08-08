@@ -1,0 +1,20 @@
+{
+    "pos":[
+        "hearty",
+        "hyper",
+        "brawny",
+        "robust",
+        "smart",
+        "clever",
+        "nimble"
+    ],
+    "neg":[
+        "feeble",
+        "dull",
+        "frail",
+        "tender",
+        "clumsy",
+        "foolish",
+        "sluggish"
+    ]
+}
