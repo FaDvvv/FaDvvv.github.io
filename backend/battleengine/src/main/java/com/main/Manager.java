@@ -5,7 +5,15 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import com.main.GameState.WholeFieldEffect;
+import com.main.Loomian.Ability;
+import com.main.Loomian.Item;
+import com.main.Loomian.MinorStatus;
+import com.main.Loomian.Set;
+import com.main.Loomian.Species;
+import com.main.Loomian.Status;
 import com.main.Move.Move;
+import com.main.Side.SideFieldEffect;
 
 public class Manager {
 

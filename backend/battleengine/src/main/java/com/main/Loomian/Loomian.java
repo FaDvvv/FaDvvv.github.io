@@ -1,10 +1,11 @@
-package com.main;
+package com.main.Loomian;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
+import com.main.Manager;
 import com.main.Actions.Action;
 import com.main.Move.Move;
 

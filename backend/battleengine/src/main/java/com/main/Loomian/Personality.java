@@ -1,7 +1,9 @@
-package com.main;
+package com.main.Loomian;
 
 import java.util.Arrays;
 import java.util.List;
+
+import com.main.Manager;
 
 public class Personality {
 

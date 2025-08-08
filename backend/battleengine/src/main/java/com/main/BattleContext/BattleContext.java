@@ -3,10 +3,10 @@ package com.main.BattleContext;
 import java.util.HashMap;
 import java.util.List;
 
-import com.main.GameState;
-import com.main.Side;
-import com.main.Weather;
-import com.main.WholeFieldEffect;
+import com.main.GameState.GameState;
+import com.main.GameState.Weather;
+import com.main.GameState.WholeFieldEffect;
+import com.main.Side.Side;
 
 public class BattleContext {
     

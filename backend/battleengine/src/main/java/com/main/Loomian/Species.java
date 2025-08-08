@@ -1,4 +1,4 @@
-package com.main;
+package com.main.Loomian;
 
 import java.util.ArrayList;
 import java.util.Arrays;

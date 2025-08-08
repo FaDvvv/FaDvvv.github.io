@@ -3,7 +3,7 @@ package com.main.Move;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.main.MinorStatus;
+import com.main.Loomian.MinorStatus;
 
 public class MinorStatusGroup {
 

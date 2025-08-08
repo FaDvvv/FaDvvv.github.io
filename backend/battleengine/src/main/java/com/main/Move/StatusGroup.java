@@ -3,7 +3,7 @@ package com.main.Move;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.main.Status;
+import com.main.Loomian.Status;
 
 public class StatusGroup {
 

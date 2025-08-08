@@ -1,8 +1,10 @@
-package com.main;
+package com.main.GameState;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+
+import com.main.Side.Side;
 
 public class GameState {
 

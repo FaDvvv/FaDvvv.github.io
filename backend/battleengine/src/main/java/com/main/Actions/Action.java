@@ -2,7 +2,7 @@ package com.main.Actions;
 
 import java.util.List;
 
-import com.main.GameState;
+import com.main.GameState.GameState;
 
 public class Action {
 

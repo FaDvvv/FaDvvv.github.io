@@ -1,9 +1,11 @@
-package com.main;
+package com.main.Side;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.stream.Collectors;
+
+import com.main.Loomian.Loomian;
 
 public class Side {
     private Loomian active;

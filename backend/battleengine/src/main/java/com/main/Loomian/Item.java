@@ -1,4 +1,4 @@
-package com.main;
+package com.main.Loomian;
 
 public class Item {
 

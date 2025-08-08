@@ -1,4 +1,4 @@
-package com.main;
+package com.main.GameState;
 
 public class Weather {
 

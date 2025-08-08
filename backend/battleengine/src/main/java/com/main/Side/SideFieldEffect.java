@@ -1,4 +1,4 @@
-package com.main;
+package com.main.Side;
 
 public class SideFieldEffect {
 
