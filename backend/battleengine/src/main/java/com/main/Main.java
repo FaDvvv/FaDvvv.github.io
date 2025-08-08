@@ -29,4 +29,9 @@ public class Main {
         for (int i = 0; i < 2; i ++) gameState.getSides().add(side);
 
     }
+
+
+    public static void pythonCallTest() {
+        System.out.println("received python call");
+    }
 }
